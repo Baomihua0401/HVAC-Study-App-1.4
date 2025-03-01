@@ -7,11 +7,16 @@ const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 const nextButton = document.getElementById("next-btn");
 const languageButton = document.createElement("button");
+const explanationElement = document.createElement("p");
 
 // 语言切换按钮
 languageButton.textContent = "Switch to Chinese";
 languageButton.onclick = toggleLanguage;
 document.body.insertBefore(languageButton, document.body.firstChild);
+
+// 解析显示
+explanationElement.id = "explanation";
+document.body.appendChild(explanationElement);
 
 // 加载 JSON 题库
 fetch("questions.json")
@@ -42,12 +47,19 @@ function loadQuestion() {
         button.onclick = () => checkAnswer(index);
         optionsElement.appendChild(button);
     });
+
+    explanationElement.textContent = ""; // 清空解析
 }
 
 // 检查答案
 function checkAnswer(selected) {
     const correct = questions[currentQuestion].correct;
     alert(selected === correct ? "Correct!" : "Wrong answer!");
+
+    // 显示解析
+    explanationElement.textContent = language === "en"
+        ? questions[currentQuestion].explanation_en
+        : questions[currentQuestion].explanation_cn;
 }
 
 // 切换语言
