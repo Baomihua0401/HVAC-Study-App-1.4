@@ -1,24 +1,8 @@
-// 题库（示例，只显示部分，完整的1000道题需要加载）
-const questions = [
-    {
-        question_en: "What is the primary factor to consider in HVAC load calculations?",
-        question_cn: "在设计暖通空调系统时，负载计算的首要因素是什么？",
-        options: [
-            { en: "Building square footage", cn: "建筑面积" },
-            { en: "Outdoor temperature", cn: "室外温度" },
-            { en: "Heat gain and loss", cn: "热量增益和损失" },
-            { en: "Equipment cost", cn: "设备成本" }
-        ],
-        correct: 2,
-        explanation_en: "HVAC load calculations focus on heat gain and loss...",
-        explanation_cn: "暖通空调负载计算的重点是热量增益和损失..."
-    },
-    // 这里应添加完整的1000道题
-];
-
+let questions = [];
 let currentQuestion = 0;
 let language = "en";
 
+// 获取 HTML 元素
 const questionElement = document.getElementById("question");
 const optionsElement = document.getElementById("options");
 const nextButton = document.getElementById("next-btn");
@@ -28,6 +12,18 @@ const languageButton = document.createElement("button");
 languageButton.textContent = "Switch to Chinese";
 languageButton.onclick = toggleLanguage;
 document.body.insertBefore(languageButton, document.body.firstChild);
+
+// 加载 JSON 题库
+fetch("questions.json")
+    .then(response => response.json())
+    .then(data => {
+        questions = data;
+        loadQuestion();
+    })
+    .catch(error => {
+        console.error("Error loading questions:", error);
+        questionElement.textContent = "Failed to load questions!";
+    });
 
 // 加载题目
 function loadQuestion() {
@@ -52,7 +48,6 @@ function loadQuestion() {
 function checkAnswer(selected) {
     const correct = questions[currentQuestion].correct;
     alert(selected === correct ? "Correct!" : "Wrong answer!");
-    document.getElementById("explanation").textContent = language === "en" ? questions[currentQuestion].explanation_en : questions[currentQuestion].explanation_cn;
 }
 
 // 切换语言
@@ -67,6 +62,3 @@ nextButton.onclick = () => {
     currentQuestion = (currentQuestion + 1) % questions.length;
     loadQuestion();
 };
-
-// 加载第一题
-loadQuestion();
