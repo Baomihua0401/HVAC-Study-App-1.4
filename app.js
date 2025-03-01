@@ -1,70 +1,72 @@
-import React, { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+// 题库（示例，只显示部分，完整的1000道题需要加载）
+const questions = [
+    {
+        question_en: "What is the primary factor to consider in HVAC load calculations?",
+        question_cn: "在设计暖通空调系统时，负载计算的首要因素是什么？",
+        options: [
+            { en: "Building square footage", cn: "建筑面积" },
+            { en: "Outdoor temperature", cn: "室外温度" },
+            { en: "Heat gain and loss", cn: "热量增益和损失" },
+            { en: "Equipment cost", cn: "设备成本" }
+        ],
+        correct: 2,
+        explanation_en: "HVAC load calculations focus on heat gain and loss...",
+        explanation_cn: "暖通空调负载计算的重点是热量增益和损失..."
+    },
+    // 这里应添加完整的1000道题
+];
 
-// 加载完整的1000道题库
-const questions = [...]; // 这里应该是完整的JSON数据
+let currentQuestion = 0;
+let language = "en";
 
-export default function QuizApp() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [showExplanation, setShowExplanation] = useState(false);
-  const [language, setLanguage] = useState("en");
+const questionElement = document.getElementById("question");
+const optionsElement = document.getElementById("options");
+const nextButton = document.getElementById("next-btn");
+const languageButton = document.createElement("button");
 
-  useEffect(() => {
+// 语言切换按钮
+languageButton.textContent = "Switch to Chinese";
+languageButton.onclick = toggleLanguage;
+document.body.insertBefore(languageButton, document.body.firstChild);
+
+// 加载题目
+function loadQuestion() {
     if (!questions.length) {
-      console.error("题库加载失败或为空");
+        questionElement.textContent = "Error: No questions available!";
+        return;
     }
-  }, []);
 
-  const question = questions[currentQuestion];
+    const q = questions[currentQuestion];
+    questionElement.textContent = language === "en" ? q.question_en : q.question_cn;
+    optionsElement.innerHTML = "";
 
-  const handleAnswer = (option) => {
-    setSelectedOption(option);
-    setShowExplanation(true);
-  };
-
-  const handleNextQuestion = () => {
-    setCurrentQuestion((prev) => (prev + 1) % questions.length);
-    setSelectedOption(null);
-    setShowExplanation(false);
-  };
-
-  const toggleLanguage = () => {
-    setLanguage((prev) => (prev === "en" ? "cn" : "en"));
-  };
-
-  return (
-    <div className="flex flex-col items-center p-4">
-      <Button onClick={toggleLanguage} className="mb-4">
-        Switch to {language === "en" ? "Chinese" : "English"}
-      </Button>
-      <Card className="w-full max-w-lg p-4 text-center">
-        <h2 className="text-xl font-bold mb-2">{language === "en" ? question.question_en : question.question_cn}</h2>
-        <div className="grid grid-cols-2 gap-2">
-          {Object.entries(question.options).map(([key, value]) => (
-            <Button
-              key={key}
-              className={`p-2 border ${selectedOption === key ? (key === question.correct_answer ? "bg-green-500" : "bg-red-500") : "bg-gray-200"}`}
-              onClick={() => handleAnswer(key)}
-              disabled={showExplanation}
-            >
-              {language === "en" ? value.en : value.cn}
-            </Button>
-          ))}
-        </div>
-      </Card>
-      {showExplanation && (
-        <Card className="w-full max-w-lg p-4 mt-4 bg-gray-100">
-          <CardContent>
-            <h3 className="font-semibold">{language === "en" ? "Explanation:" : "解析："}</h3>
-            <p>{language === "en" ? question.explanation_en : question.explanation_cn}</p>
-          </CardContent>
-        </Card>
-      )}
-      <Button onClick={handleNextQuestion} className="mt-4">
-        {language === "en" ? "Next Question" : "下一题"}
-      </Button>
-    </div>
-  );
+    q.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.textContent = language === "en" ? option.en : option.cn;
+        button.onclick = () => checkAnswer(index);
+        optionsElement.appendChild(button);
+    });
 }
+
+// 检查答案
+function checkAnswer(selected) {
+    const correct = questions[currentQuestion].correct;
+    alert(selected === correct ? "Correct!" : "Wrong answer!");
+    document.getElementById("explanation").textContent = language === "en" ? questions[currentQuestion].explanation_en : questions[currentQuestion].explanation_cn;
+}
+
+// 切换语言
+function toggleLanguage() {
+    language = language === "en" ? "cn" : "en";
+    languageButton.textContent = language === "en" ? "Switch to Chinese" : "切换到英语";
+    loadQuestion();
+}
+
+// 下一题
+nextButton.onclick = () => {
+    currentQuestion = (currentQuestion + 1) % questions.length;
+    loadQuestion();
+};
+
+// 加载第一题
+loadQuestion();
