@@ -11,5 +11,18 @@
         "correct": 2,
         "explanation_en": "HVAC load calculations focus on heat gain and loss...",
         "explanation_cn": "暖通空调负载计算的重点是热量增益和损失..."
+    },
+    {
+        "question_en": "Sample question 2 in English?",
+        "question_cn": "示例问题 2 中文？",
+        "options": [
+            { "en": "Option A", "cn": "选项 A" },
+            { "en": "Option B", "cn": "选项 B" },
+            { "en": "Option C", "cn": "选项 C" },
+            { "en": "Option D", "cn": "选项 D" }
+        ],
+        "correct": 1,
+        "explanation_en": "Explanation for sample question 2 in English.",
+        "explanation_cn": "示例问题 2 的解析中文。"
     }
 ]
