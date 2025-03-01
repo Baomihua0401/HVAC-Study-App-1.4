@@ -1,0 +1,15 @@
+[
+    {
+        "question_en": "What is the primary factor to consider in HVAC load calculations?",
+        "question_cn": "在设计暖通空调系统时，负载计算的首要因素是什么？",
+        "options": [
+            { "en": "Building square footage", "cn": "建筑面积" },
+            { "en": "Outdoor temperature", "cn": "室外温度" },
+            { "en": "Heat gain and loss", "cn": "热量增益和损失" },
+            { "en": "Equipment cost", "cn": "设备成本" }
+        ],
+        "correct": 2,
+        "explanation_en": "HVAC load calculations focus on heat gain and loss...",
+        "explanation_cn": "暖通空调负载计算的重点是热量增益和损失..."
+    }
+]
