@@ -1,69 +1,35 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let questions = [];
-    let currentQuestionIndex = 0;
-    let selectedChapter = "";
-    
+    let chapterSelect = document.getElementById("chapter-select");
+    let startButton = document.getElementById("start-btn");
+    let quizContainer = document.getElementById("quiz-container");
+
     fetch("questions.json")
         .then(response => response.json())
         .then(data => {
-            questions = data;
-            populateChapterOptions();
+            let chapters = new Set(); // 使用 Set 避免重复章节
+            data.forEach(question => chapters.add(question.chapter));
+
+            // 清空下拉框并插入章节选项
+            chapterSelect.innerHTML = "";
+            chapters.forEach(chapter => {
+                let option = document.createElement("option");
+                option.value = chapter;
+                option.textContent = chapter; 
+                chapterSelect.appendChild(option);
+            });
+
+            // 监听章节选择 & 开始答题
+            startButton.addEventListener("click", function () {
+                let selectedChapter = chapterSelect.value;
+                let filteredQuestions = data.filter(q => q.chapter === selectedChapter);
+
+                if (filteredQuestions.length > 0) {
+                    localStorage.setItem("selectedQuestions", JSON.stringify(filteredQuestions));
+                    window.location.href = "quiz.html"; // 跳转到答题页面
+                } else {
+                    alert("该章节没有题目，请选择其他章节！");
+                }
+            });
         })
-        .catch(error => console.error("Error loading questions.json:", error));
-    
-    function populateChapterOptions() {
-        const chapterSelect = document.getElementById("chapter-select");
-        const chapters = [...new Set(questions.map(q => q.chapter))];
-        
-        chapters.forEach(chapter => {
-            let option = document.createElement("option");
-            option.value = chapter;
-            option.textContent = chapter;
-            chapterSelect.appendChild(option);
-        });
-    }
-    
-    window.startQuiz = function () {
-        selectedChapter = document.getElementById("chapter-select").value;
-        currentQuestionIndex = 0;
-        loadQuestion();
-        document.getElementById("chapter-selection").style.display = "none";
-        document.getElementById("quiz-container").style.display = "block";
-    }
-    
-    function loadQuestion() {
-        const filteredQuestions = questions.filter(q => q.chapter === selectedChapter);
-        if (currentQuestionIndex >= filteredQuestions.length) {
-            alert("已完成本章节所有题目！");
-            location.reload();
-            return;
-        }
-        
-        const questionData = filteredQuestions[currentQuestionIndex];
-        document.getElementById("question").textContent = questionData.question_cn;
-        const optionsContainer = document.getElementById("options");
-        optionsContainer.innerHTML = "";
-        
-        questionData.options.forEach((option, index) => {
-            let button = document.createElement("button");
-            button.textContent = option.cn;
-            button.onclick = function () { checkAnswer(index, questionData.correct, questionData); };
-            optionsContainer.appendChild(button);
-        });
-    }
-    
-    function checkAnswer(selectedIndex, correctIndex, questionData) {
-        if (selectedIndex === correctIndex) {
-            alert("正确！\n\n" + questionData.explanation_cn);
-        } else {
-            alert("错误！正确答案是：" + questionData.options[correctIndex].cn + "\n\n解析：" + questionData.explanation_cn);
-        }
-        currentQuestionIndex++;
-        loadQuestion();
-    }
-    
-    window.nextQuestion = function () {
-        currentQuestionIndex++;
-        loadQuestion();
-    }
+        .catch(error => console.error("Error loading questions:", error));
 });
