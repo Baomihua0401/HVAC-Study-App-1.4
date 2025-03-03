@@ -3,26 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVAC Study App</title>
+    <title>HVAC 法律题库</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>HVAC 法律题库</h1>
-    
-    <!-- 章节选择 -->
-    <div id="chapter-selection">
-        <label for="chapter-select">选择章节：</label>
-        <select id="chapter-select"></select>
-        <button onclick="startQuiz()">开始答题</button>
-    </div>
-    
-    <!-- 题目界面（默认隐藏，开始答题后显示） -->
-    <div id="quiz-container" style="display: none;">
-        <p id="question">题目加载中...</p>
-        <div id="options"></div>
-        <button id="next-btn" onclick="nextQuestion()">下一题</button>
-    </div>
-    
+
+    <!-- 章节选择框 -->
+    <label for="chapter-select">选择章节：</label>
+    <select id="chapter-select">
+        <option value="">加载中...</option>
+    </select>
+    <button id="start-btn">开始答题</button>
+
     <script src="app.js"></script>
 </body>
 </html>
