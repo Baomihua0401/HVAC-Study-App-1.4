@@ -1,76 +1,71 @@
+// app.js - 仅支持法律题库，按章节选择
+
 let questions = [];
-let currentQuestion = 0;
-let language = "en";
+let currentQuestionIndex = 0;
+let selectedChapter = 1;
 
-// 获取 HTML 元素
-const questionElement = document.getElementById("question");
-const optionsElement = document.getElementById("options");
-const nextButton = document.getElementById("next-btn");
-const languageButton = document.createElement("button");
-const explanationElement = document.createElement("p");
-
-// 语言切换按钮
-languageButton.textContent = "Switch to Chinese";
-languageButton.onclick = toggleLanguage;
-document.body.insertBefore(languageButton, document.body.firstChild);
-
-// 解析显示
-explanationElement.id = "explanation";
-document.body.appendChild(explanationElement);
-
-// 加载 JSON 题库
+// 页面加载时获取 JSON 题库
 fetch("questions.json")
-    .then(response => response.json())
-    .then(data => {
-        questions = data;
-        loadQuestion();
-    })
-    .catch(error => {
-        console.error("Error loading questions:", error);
-        questionElement.textContent = "Failed to load questions!";
-    });
+  .then((response) => response.json())
+  .then((data) => {
+    questions = data.filter(q => q.category === "法律题库"); // 仅加载法律题库
+    populateChapterOptions();
+  })
+  .catch((error) => console.error("Error loading questions:", error));
 
-// 加载题目
-function loadQuestion() {
-    if (!questions.length) {
-        questionElement.textContent = "Error: No questions available!";
-        return;
-    }
+// 填充章节选项
+function populateChapterOptions() {
+  const chapterSelect = document.getElementById("chapter-select");
+  chapterSelect.innerHTML = "";
+  
+  const chapters = [...new Set(questions.map(q => q.chapter))];
+  
+  chapters.forEach((chapter) => {
+    let option = document.createElement("option");
+    option.value = chapter;
+    option.textContent = `第 ${chapter} 章`;
+    chapterSelect.appendChild(option);
+  });
+}
 
-    const q = questions[currentQuestion];
-    questionElement.textContent = language === "en" ? q.question_en : q.question_cn;
-    optionsElement.innerHTML = "";
+// 开始答题
+function startQuiz() {
+  selectedChapter = parseInt(document.getElementById("chapter-select").value);
+  currentQuestionIndex = 0;
+  const filteredQuestions = questions.filter(q => q.chapter === selectedChapter);
+  questions = filteredQuestions;
+  displayQuestion();
+}
 
-    q.options.forEach((option, index) => {
-        const button = document.createElement("button");
-        button.textContent = language === "en" ? option.en : option.cn;
-        button.onclick = () => checkAnswer(index);
-        optionsElement.appendChild(button);
-    });
-
-    explanationElement.textContent = ""; // 清空解析
+// 显示题目
+function displayQuestion() {
+  if (currentQuestionIndex >= questions.length) {
+    document.getElementById("quiz-container").innerHTML = "<h3>所有问题已完成！</h3>";
+    return;
+  }
+  
+  const question = questions[currentQuestionIndex];
+  document.getElementById("question").textContent = question.question_en;
+  
+  const optionsContainer = document.getElementById("options");
+  optionsContainer.innerHTML = "";
+  
+  question.options.forEach((option, index) => {
+    let button = document.createElement("button");
+    button.textContent = option.en;
+    button.onclick = () => checkAnswer(index);
+    optionsContainer.appendChild(button);
+  });
 }
 
 // 检查答案
-function checkAnswer(selected) {
-    const correct = questions[currentQuestion].correct;
-    alert(selected === correct ? "Correct!" : "Wrong answer!");
-
-    // 显示解析
-    explanationElement.textContent = language === "en"
-        ? questions[currentQuestion].explanation_en
-        : questions[currentQuestion].explanation_cn;
+function checkAnswer(selectedIndex) {
+  const correctIndex = questions[currentQuestionIndex].correct;
+  if (selectedIndex === correctIndex) {
+    alert("Correct!");
+  } else {
+    alert("Wrong! Correct answer: " + questions[currentQuestionIndex].options[correctIndex].en);
+  }
+  currentQuestionIndex++;
+  displayQuestion();
 }
-
-// 切换语言
-function toggleLanguage() {
-    language = language === "en" ? "cn" : "en";
-    languageButton.textContent = language === "en" ? "Switch to Chinese" : "切换到英语";
-    loadQuestion();
-}
-
-// 下一题
-nextButton.onclick = () => {
-    currentQuestion = (currentQuestion + 1) % questions.length;
-    loadQuestion();
-};
