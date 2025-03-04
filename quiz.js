@@ -8,12 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentQuestions = JSON.parse(localStorage.getItem("currentQuestions")) || [];
     let currentIndex = 0;
     let isEnglish = true; // 默认英语
+    let answered = false; // 是否已经回答
 
     function loadQuestion() {
+        answered = false; // 重置回答状态
+        nextButton.style.display = "none"; // 先隐藏下一题按钮
         if (currentIndex >= currentQuestions.length) {
             questionText.innerText = "题目已完成！";
             optionsContainer.innerHTML = "";
-            nextButton.style.display = "none";
             return;
         }
 
@@ -25,23 +27,32 @@ document.addEventListener("DOMContentLoaded", function () {
             const button = document.createElement("button");
             button.classList.add("option-btn");
             button.innerText = isEnglish ? option.en : option.cn;
-            button.addEventListener("click", () => checkAnswer(index, question.correct));
+            button.addEventListener("click", () => checkAnswer(index, question.correct, question));
             optionsContainer.appendChild(button);
         });
     }
 
-    function checkAnswer(index, correctIndex) {
+    function checkAnswer(index, correctIndex, question) {
+        if (answered) return; // 防止重复点击
+        answered = true;
+
+        let message;
         if (index === correctIndex) {
-            alert("回答正确！");
+            message = isEnglish ? "Correct! 🎉" : "回答正确！🎉";
         } else {
-            alert("回答错误！");
+            message = isEnglish ? `Wrong ❌\nCorrect answer: ${question.options[correctIndex].en}\n\nExplanation:\n${question.explanation_en}`
+                               : `回答错误 ❌\n正确答案：${question.options[correctIndex].cn}\n\n解析：\n${question.explanation_cn}`;
         }
-        currentIndex++;
-        loadQuestion();
+
+        alert(message); // 显示正确答案和解析
+        nextButton.style.display = "block"; // 显示“下一题”按钮
     }
 
     // 监听“下一题”按钮
-    nextButton.addEventListener("click", loadQuestion);
+    nextButton.addEventListener("click", function () {
+        currentIndex++;
+        loadQuestion();
+    });
 
     // 监听“返回章节”按钮
     backButton.addEventListener("click", function () {
