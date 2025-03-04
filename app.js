@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () { 
     const chapterSelect = document.getElementById("chapter-select");
     const startButton = document.getElementById("start-btn");
     const reviewMistakesButton = document.getElementById("review-mistakes-btn");
@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let questions = [];
     let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+
+    console.log("📌 章节进度 DOM:", chapterProgressList);
+    if (!chapterProgressList) {
+        console.error("❌ 错误: 章节进度列表的 DOM 元素未找到！");
+    }
 
     fetch("questions.json")
         .then(response => response.json())
@@ -52,13 +57,18 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "quiz.html";
     });
 
-    reviewMistakesButton.addEventListener("click", function () {
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        if (mistakes.length === 0) {
-            alert("暂无错题！");
-            return;
-        }
-        localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
-        window.location.href = "quiz.html";
-    });
+    console.log("📌 查看错题按钮:", reviewMistakesButton);
+    if (reviewMistakesButton) {
+        reviewMistakesButton.addEventListener("click", function () {
+            let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+            if (mistakes.length === 0) {
+                alert("暂无错题！");
+                return;
+            }
+            localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
+            window.location.href = "quiz.html";
+        });
+    } else {
+        console.error("❌ 错误: '查看错题' 按钮未找到！");
+    }
 });
