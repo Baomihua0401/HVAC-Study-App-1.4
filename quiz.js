@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentLanguage = localStorage.getItem("language") || "cn"; // 默认中文
     let currentQuestionIndex = 0;
+    let correctAnswers = 0; // 记录答对的题目数
     let questions = JSON.parse(localStorage.getItem("currentQuestions")) || [];
 
     const languageSwitchBtn = document.getElementById("language-switch");
@@ -9,6 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const explanationText = document.getElementById("explanation");
     const nextButton = document.getElementById("next-btn");
     const backButton = document.getElementById("back-btn");
+    const progressText = document.getElementById("progress");
+    const scoreText = document.getElementById("score");
+
+    // 📌 更新进度和正确率
+    function updateProgress() {
+        progressText.textContent = `进度: ${currentQuestionIndex + 1} / ${questions.length}`;
+        let percentage = questions.length > 0 ? Math.round((correctAnswers / questions.length) * 100) : 0;
+        scoreText.textContent = `正确率: ${percentage}%`;
+    }
 
     // 📌 更新语言切换按钮文本
     function updateLanguageButton() {
@@ -19,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     languageSwitchBtn.addEventListener("click", function () {
         currentLanguage = currentLanguage === "cn" ? "en" : "cn";
         localStorage.setItem("language", currentLanguage);
-        updateLanguageButton(); // 更新按钮文本
+        updateLanguageButton();
         loadQuestion(); // 重新加载题目
     });
 
@@ -35,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "index.html";
             return;
         }
-        
+
         const question = questions[currentQuestionIndex];
         questionText.textContent = currentLanguage === "cn" ? question.question_cn : question.question_en;
         optionsContainer.innerHTML = ""; // 清空选项
@@ -51,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
             optionsContainer.appendChild(btn);
         });
 
+        updateProgress(); // 更新进度信息
         updateLanguageButton(); // 确保切换语言时，按钮显示正确文本
     }
 
@@ -71,6 +82,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
+        if (selectedIndex === correctIndex) {
+            correctAnswers++; // 答对加分
+        }
+
         // 显示解析
         explanationText.textContent = currentLanguage === "cn" ? question.explanation_cn : question.explanation_en;
         explanationText.classList.remove("hidden");
@@ -84,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (currentQuestionIndex < questions.length) {
             loadQuestion(); // 加载下一题
         } else {
-            alert("已完成本章节所有题目，返回章节选择！");
+            alert(`🎉 章节完成！您的正确率为 ${Math.round((correctAnswers / questions.length) * 100)}%`);
             window.location.href = "index.html";
         }
     });
