@@ -3150,20 +3150,20 @@
         "question_cn": "在加州，承包商必须保留分包商付款记录多久？",
         "options": [
             {
-                "en": "3 years 3",
-                "cn": "年"
+                "en": "3 years",
+                "cn": "3 年"
             },
             {
-                "en": "5 years 5",
-                "cn": "年"
+                "en": "5 years",
+                "cn": "5 年"
             },
             {
-                "en": "7 years 7",
-                "cn": "年"
+                "en": "7 years",
+                "cn": "7 年"
             },
             {
-                "en": "10 years 10",
-                "cn": "年"
+                "en": "10 years",
+                "cn": "10 年"
             }
         ],
         "correct": 0,
@@ -3696,20 +3696,20 @@
         "question_cn": "在加州，承包商有多长时间对 CSLB 罚单提出异议？",
         "options": [
             {
-                "en": "10 days 10",
-                "cn": "天"
+                "en": "10 days",
+                "cn": "10 天"
             },
             {
-                "en": "15 days 15",
-                "cn": "天"
+                "en": "15 days",
+                "cn": "15 天"
             },
             {
-                "en": "30 days 30",
-                "cn": "天"
+                "en": "30 days",
+                "cn": "30 天"
             },
             {
-                "en": "60 days 60",
-                "cn": "天"
+                "en": "60 days",
+                "cn": "60 天"
             }
         ],
         "correct": 1,
@@ -3748,20 +3748,20 @@
         "question_cn": "项目完成后，承包商向分包商提供最终付款的最长时间是多少？",
         "options": [
             {
-                "en": "7 days 7",
-                "cn": "天"
+                "en": "7 days",
+                "cn": "7 天"
             },
             {
-                "en": "15 days 15",
-                "cn": "天"
+                "en": "15 days",
+                "cn": "15 天"
             },
             {
-                "en": "30 days 30",
-                "cn": "天"
+                "en": "30 days",
+                "cn": "30 天"
             },
             {
-                "en": "60 days 60",
-                "cn": "天"
+                "en": "60 days",
+                "cn": "60 天"
             }
         ],
         "correct": 0,
@@ -3852,16 +3852,16 @@
         "question_cn": "根据加州法律，留置权豁免的保留期限是多久？",
         "options": [
             {
-                "en": "1 year 1",
-                "cn": "年"
+                "en": "1 year",
+                "cn": "1 年"
             },
             {
-                "en": "3 years 3",
-                "cn": "年"
+                "en": "3 years",
+                "cn": "3 年"
             },
             {
-                "en": "7 years 7",
-                "cn": "年"
+                "en": "7 years",
+                "cn": "7 年"
             },
             {
                 "en": "For the duration of the lien period",
