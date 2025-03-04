@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function loadQuestion() {
         answered = false; // 允许新回答
-        nextButton.style.display = "none"; // 先隐藏“下一题”按钮
+        nextButton.style.display = "none"; // 隐藏“下一题”按钮
         optionsContainer.innerHTML = ""; // 清空上次的选项
 
         if (currentIndex >= currentQuestions.length) {
@@ -54,6 +54,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 : `❌ 回答错误！\n正确答案：${question.options[correctIndex].cn}\n\n解析：\n${question.explanation_cn}`;
             selectedButton.style.backgroundColor = "red"; // 红色背景
             selectedButton.style.color = "white";
+
+            // **高亮正确答案**
+            document.querySelectorAll(".option-btn")[correctIndex].style.backgroundColor = "green";
+            document.querySelectorAll(".option-btn")[correctIndex].style.color = "white";
         }
 
         // 显示解析信息
