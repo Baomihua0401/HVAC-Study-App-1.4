@@ -9,18 +9,15 @@
 <body>
     <h1>HVAC 章节答题</h1>
 
-    <!-- 语言切换按钮 -->
-    <button id="language-switch">Switch to English</button>
+    <button id="language-switch">切换至英语</button>
 
-    <!-- 📌 进度显示 -->
-    <h2 id="progress">进度: 0 / 0</h2>
-    <h2 id="score">正确率: 0%</h2>
+    <p>进度: <span id="progress">0 / 0</span></p>
+    <p>正确率: <span id="accuracy">0%</span></p>
 
-    <!-- 题目内容 -->
     <div id="quiz-container">
         <p id="question-text">加载中...</p>
         <div id="options"></div>
-        <p id="explanation" class="hidden"></p> <!-- 解析部分 -->
+        <p id="explanation" class="hidden"></p>
         <button id="next-btn" class="hidden">下一题</button>
         <button id="back-btn">返回章节选择</button>
     </div>
