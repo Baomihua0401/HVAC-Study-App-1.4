@@ -3,93 +3,67 @@ document.addEventListener("DOMContentLoaded", function () {
     const optionsContainer = document.getElementById("options");
     const nextButton = document.getElementById("next-btn");
     const backButton = document.getElementById("back-btn");
-    const langButton = document.getElementById("toggle-lang");
 
-    let currentQuestions = JSON.parse(localStorage.getItem("currentQuestions")) || [];
-    let currentIndex = 0;
-    let isEnglish = true; // 默认语言：英语
-    let answered = false; // 记录是否已经回答
+    let questions = JSON.parse(localStorage.getItem("currentQuestions")) || [];
+    let currentQuestionIndex = 0;
+    let answered = false; // 防止重复点击答案
 
     function loadQuestion() {
-        answered = false; // 允许新回答
-        nextButton.style.display = "none"; // 隐藏“下一题”按钮
-        optionsContainer.innerHTML = ""; // 清空上次的选项
+        answered = false;
+        optionsContainer.innerHTML = ""; // 清空选项
+        const currentQuestion = questions[currentQuestionIndex];
+        questionText.textContent = currentQuestion.question_cn || currentQuestion.question_en;
 
-        if (currentIndex >= currentQuestions.length) {
-            questionText.innerText = isEnglish ? "All questions completed!" : "所有题目已完成！";
-            return;
-        }
-
-        const question = currentQuestions[currentIndex];
-        questionText.innerText = isEnglish ? question.question_en : question.question_cn;
-
-        // 显示选项
-        question.options.forEach((option, index) => {
+        currentQuestion.options.forEach((option, index) => {
             const button = document.createElement("button");
+            button.textContent = option.cn || option.en;
             button.classList.add("option-btn");
-            button.innerText = isEnglish ? option.en : option.cn;
-            button.addEventListener("click", () => checkAnswer(index, question.correct, question, button));
+            button.onclick = () => checkAnswer(index, button, currentQuestion.correct, currentQuestion);
             optionsContainer.appendChild(button);
         });
+
+        nextButton.style.display = "none"; // 隐藏下一题按钮，直到作答后显示
     }
 
-    function checkAnswer(index, correctIndex, question, selectedButton) {
-        if (answered) return; // 防止重复回答
+    function checkAnswer(selectedIndex, selectedButton, correctIndex, question) {
+        if (answered) return; // 防止重复点击
         answered = true;
 
-        // 禁用所有选项按钮
-        document.querySelectorAll(".option-btn").forEach(btn => {
-            btn.disabled = true;
-            btn.style.opacity = "0.6"; // 让已选项变灰
+        const buttons = document.querySelectorAll(".option-btn");
+
+        buttons.forEach((btn, index) => {
+            btn.disabled = true; // 选项锁定，防止再次点击
+            if (index === correctIndex) {
+                btn.style.backgroundColor = "green"; // 正确答案变绿色
+                btn.style.color = "white";
+            }
         });
 
-        let message;
-        if (index === correctIndex) {
-            message = isEnglish ? "✅ Correct!" : "✅ 回答正确！";
-            selectedButton.style.backgroundColor = "green"; // 绿色背景
+        if (selectedIndex !== correctIndex) {
+            selectedButton.style.backgroundColor = "red"; // 选错的变红色
             selectedButton.style.color = "white";
-        } else {
-            message = isEnglish 
-                ? `❌ Wrong!\nCorrect answer: ${question.options[correctIndex].en}\n\nExplanation:\n${question.explanation_en}`
-                : `❌ 回答错误！\n正确答案：${question.options[correctIndex].cn}\n\n解析：\n${question.explanation_cn}`;
-            selectedButton.style.backgroundColor = "red"; // 红色背景
-            selectedButton.style.color = "white";
-
-            // **高亮正确答案**
-            document.querySelectorAll(".option-btn")[correctIndex].style.backgroundColor = "green";
-            document.querySelectorAll(".option-btn")[correctIndex].style.color = "white";
         }
 
-        // 显示解析信息
-        const explanationBox = document.createElement("div");
-        explanationBox.innerText = message;
-        explanationBox.style.marginTop = "20px";
-        explanationBox.style.padding = "10px";
-        explanationBox.style.border = "1px solid black";
-        explanationBox.style.backgroundColor = "#f9f9f9";
-        explanationBox.style.fontWeight = "bold";
-        optionsContainer.appendChild(explanationBox);
-
-        nextButton.style.display = "block"; // 显示“下一题”按钮
+        // 显示解析
+        setTimeout(() => {
+            alert(`解析: ${question.explanation_cn || question.explanation_en}`);
+            nextButton.style.display = "block"; // 显示下一题按钮
+        }, 500);
     }
 
-    // 监听“下一题”按钮
     nextButton.addEventListener("click", function () {
-        currentIndex++;
-        loadQuestion();
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            loadQuestion();
+        } else {
+            alert("本章节已完成！");
+            window.location.href = "index.html";
+        }
     });
 
-    // 监听“返回章节”按钮
     backButton.addEventListener("click", function () {
-        window.location.href = "index.html"; // 返回章节选择页
+        window.location.href = "index.html";
     });
 
-    // 监听“语言切换”按钮
-    langButton.addEventListener("click", function () {
-        isEnglish = !isEnglish;
-        langButton.innerText = isEnglish ? "Switch to 中文" : "切换到 English";
-        loadQuestion();
-    });
-
-    loadQuestion(); // 加载第一道题
+    loadQuestion();
 });
