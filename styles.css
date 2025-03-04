@@ -3,66 +3,36 @@ body {
     text-align: center;
 }
 
-#quiz-container {
-    width: 90%;
-    max-width: 600px;
-    margin: auto;
-}
-
-#question-text {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .option-btn {
     display: block;
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    font-size: 1.2em;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #000;
     background-color: white;
-    border: 2px solid #007bff;
-    border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .option-btn:hover {
-    background-color: #007bff;
-    color: white;
-}
-
-.correct {
-    background-color: green !important;
-    color: white !important;
-}
-
-.incorrect {
-    background-color: red !important;
-    color: white !important;
+    background-color: #ddd;
 }
 
 .hidden {
     display: none;
 }
 
-#explanation {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-#next-btn, #back-btn {
-    width: 100%;
-    padding: 15px;
-    font-size: 1.2em;
-    background-color: #28a745;
+.correct {
+    background-color: green;
     color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 15px;
 }
 
-#back-btn {
-    background-color: #007bff;
+.wrong {
+    background-color: red;
+    color: white;
 }
