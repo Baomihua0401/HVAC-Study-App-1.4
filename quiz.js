@@ -3,66 +3,57 @@ document.addEventListener("DOMContentLoaded", function () {
     const optionsContainer = document.getElementById("options");
     const nextButton = document.getElementById("next-btn");
     const backButton = document.getElementById("back-btn");
-    const explanationText = document.getElementById("explanation");
-    const languageButton = document.getElementById("toggle-language");
+    const langButton = document.getElementById("toggle-lang");
 
     let currentQuestions = JSON.parse(localStorage.getItem("currentQuestions")) || [];
-    let currentQuestionIndex = 0;
-    let language = "cn"; // 默认语言为中文
+    let currentIndex = 0;
+    let isEnglish = true; // 默认英语
 
     function loadQuestion() {
-        if (currentQuestionIndex >= currentQuestions.length) {
-            alert("本章节题目已完成！");
-            window.location.href = "index.html"; // 跳转回章节选择
+        if (currentIndex >= currentQuestions.length) {
+            questionText.innerText = "题目已完成！";
+            optionsContainer.innerHTML = "";
+            nextButton.style.display = "none";
             return;
         }
 
-        const question = currentQuestions[currentQuestionIndex];
-        questionText.textContent = language === "cn" ? question.question_cn : question.question_en;
-        explanationText.style.display = "none"; // 隐藏解析
-        optionsContainer.innerHTML = ""; // 清空选项
+        const question = currentQuestions[currentIndex];
+        questionText.innerText = isEnglish ? question.question_en : question.question_cn;
 
+        optionsContainer.innerHTML = "";
         question.options.forEach((option, index) => {
             const button = document.createElement("button");
-            button.textContent = language === "cn" ? option.cn : option.en;
             button.classList.add("option-btn");
+            button.innerText = isEnglish ? option.en : option.cn;
             button.addEventListener("click", () => checkAnswer(index, question.correct));
             optionsContainer.appendChild(button);
         });
-
-        nextButton.disabled = true; // 禁用“下一题”按钮，直到选择答案
     }
 
-    function checkAnswer(selectedIndex, correctIndex) {
-        const buttons = document.querySelectorAll(".option-btn");
-        buttons.forEach((btn, index) => {
-            btn.disabled = true; // 禁用所有选项
-            if (index === correctIndex) {
-                btn.style.backgroundColor = "green"; // 标记正确答案
-            } else if (index === selectedIndex) {
-                btn.style.backgroundColor = "red"; // 标记错误答案
-            }
-        });
-
-        explanationText.textContent = language === "cn" ? currentQuestions[currentQuestionIndex].explanation_cn : currentQuestions[currentQuestionIndex].explanation_en;
-        explanationText.style.display = "block"; // 显示解析
-        nextButton.disabled = false; // 启用“下一题”按钮
+    function checkAnswer(index, correctIndex) {
+        if (index === correctIndex) {
+            alert("回答正确！");
+        } else {
+            alert("回答错误！");
+        }
+        currentIndex++;
+        loadQuestion();
     }
 
-    nextButton.addEventListener("click", function () {
-        currentQuestionIndex++;
+    // 监听“下一题”按钮
+    nextButton.addEventListener("click", loadQuestion);
+
+    // 监听“返回章节”按钮
+    backButton.addEventListener("click", function () {
+        window.location.href = "index.html"; // 返回章节选择页
+    });
+
+    // 监听“语言切换”按钮
+    langButton.addEventListener("click", function () {
+        isEnglish = !isEnglish;
+        langButton.innerText = isEnglish ? "Switch to 中文" : "切换到 English";
         loadQuestion();
     });
 
-    backButton.addEventListener("click", function () {
-        window.location.href = "index.html"; // 返回章节选择
-    });
-
-    languageButton.addEventListener("click", function () {
-        language = language === "cn" ? "en" : "cn";
-        languageButton.textContent = language === "cn" ? "切换到 English" : "Switch to 中文";
-        loadQuestion(); // 重新加载当前题目
-    });
-
-    loadQuestion();
+    loadQuestion(); // 加载第一道题
 });
