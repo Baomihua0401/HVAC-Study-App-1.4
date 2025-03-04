@@ -43,7 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
     updateLanguageButton();
 
     function loadQuestion() {
+        if (currentQuestionIndex >= questions.length) {
+            console.error("❌ No more questions available.");
+            return;
+        }
+
         let question = questions[currentQuestionIndex];
+        if (!question) {
+            console.error("❌ Invalid question data.");
+            return;
+        }
+        
         questionText.textContent = (currentLanguage === "cn") ? question.question_cn : question.question_en;
 
         optionsContainer.innerHTML = "";
@@ -57,7 +67,9 @@ document.addEventListener("DOMContentLoaded", function () {
             optionsContainer.appendChild(button);
         });
 
+        explanationText.textContent = (currentLanguage === "cn") ? question.explanation_cn : question.explanation_en;
         explanationText.classList.add("hidden");
+
         nextButton.classList.add("hidden");
     }
 
@@ -77,9 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             correctAnswers++;
         }
 
-        explanationText.textContent = (currentLanguage === "cn") ? questions[currentQuestionIndex].explanation_cn : questions[currentQuestionIndex].explanation_en;
         explanationText.classList.remove("hidden");
-
         nextButton.classList.remove("hidden");
 
         progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
@@ -92,14 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
             loadQuestion();
         } else {
             alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
-
-            let chapterNumber = questions[0].chapter;
-            let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
-            if (!completedChapters.includes(chapterNumber)) {
-                completedChapters.push(chapterNumber);
-            }
-            localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
-
             window.location.href = "index.html";
         }
     });
