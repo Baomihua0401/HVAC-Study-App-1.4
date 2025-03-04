@@ -1,61 +1,68 @@
-/* 题目部分 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#quiz-container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
 #question-text {
-    font-size: 24px; /* 增大字体 */
-    text-align: center;
-    padding: 20px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
-/* 选项按钮样式 */
 .option-btn {
-    display: block; /* 让按钮竖着排列 */
-    width: 90%; /* 按钮宽度填充屏幕 */
-    max-width: 500px; /* 最大宽度，适配不同屏幕 */
-    margin: 10px auto; /* 居中对齐 */
+    display: block;
+    width: 100%;
     padding: 15px;
-    font-size: 20px; /* 增大字体 */
-    border: 2px solid #007BFF;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-/* 选项按钮点击时的样式 */
 .option-btn:hover {
-    background-color: #007BFF;
+    background-color: #007bff;
     color: white;
 }
 
-/* 下一题、返回按钮 */
+.correct {
+    background-color: green !important;
+    color: white !important;
+}
+
+.incorrect {
+    background-color: red !important;
+    color: white !important;
+}
+
+.hidden {
+    display: none;
+}
+
+#explanation {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 #next-btn, #back-btn {
-    display: block;
-    width: 80%;
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 12px;
-    font-size: 18px;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 8px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
-#next-btn:hover, #back-btn:hover {
-    background-color: #218838;
-}
-
-/* 适配小屏幕 */
-@media (max-width: 600px) {
-    #question-text {
-        font-size: 20px;
-    }
-    .option-btn {
-        font-size: 18px;
-        padding: 12px;
-    }
-    #next-btn, #back-btn {
-        font-size: 16px;
-        padding: 10px;
-    }
+#back-btn {
+    background-color: #007bff;
 }
