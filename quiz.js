@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+    let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
 
     function updateLanguageButton() {
         languageSwitch.textContent = (currentLanguage === "cn") ? "Switch to English" : "切换至中文";
@@ -69,10 +70,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (selectedIndex === correctIndex) {
             correctAnswers++;
-            // 如果之前错了，现在做对了，就从错题列表中删除
+            // 如果错题列表中有这个题，并且做对了，就移除
             mistakes = mistakes.filter(q => q.question_en !== questions[currentQuestionIndex].question_en);
         } else {
-            // 只有没在错题列表中才加入错题
+            // 只有不在错题列表中的，才加入错题
             if (!mistakes.some(q => q.question_en === questions[currentQuestionIndex].question_en)) {
                 mistakes.push(questions[currentQuestionIndex]);
             }
@@ -91,17 +92,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     nextButton.addEventListener("click", function () {
         currentQuestionIndex++;
+
         if (currentQuestionIndex < questions.length) {
             loadQuestion();
         } else {
             alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
 
             let chapterNumber = questions[0].chapter;
-            let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+
+            // **✅ 只有所有题目都完成，才标记章节为已完成**
             if (!completedChapters.includes(chapterNumber)) {
                 completedChapters.push(chapterNumber);
+                localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
             }
-            localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
 
             window.location.href = "index.html";
         }
