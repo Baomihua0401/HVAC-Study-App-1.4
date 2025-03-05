@@ -63,15 +63,22 @@ fetch("questions.json")
 
     console.log("📌 查看错题按钮:", reviewMistakesButton);
     if (reviewMistakesButton) {
-        reviewMistakesButton.addEventListener("click", function () {
-            let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-            if (mistakes.length === 0) {
-                alert("暂无错题！");
-                return;
-            }
-            localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
-            window.location.href = "quiz.html";
-        });
+       reviewMistakesButton.addEventListener("click", function () {
+    let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+
+    // ✅ **插入此代码**
+    console.log("📌 当前错题:", mistakes);
+    // ✅ **插入结束**
+
+    if (mistakes.length === 0) {
+        alert("暂无错题！");
+        return;
+    }
+
+    localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
+    window.location.href = "quiz.html";
+});
+
     } else {
         console.error("❌ 错误: '查看错题' 按钮未找到！");
     }
