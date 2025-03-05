@@ -102,7 +102,18 @@ document.addEventListener("DOMContentLoaded", function () {
             loadQuestion();
         } else {
             alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
-            window.location.href = "index.html";
+                    let chapterNumber = questions[0].chapter;
+        let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+
+        if (!completedChapters.includes(chapterNumber)) {
+            completedChapters.push(chapterNumber);
+        }
+
+        localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
+
+        // **添加调试信息**
+        console.log("✅ 已完成章节存入 localStorage:", completedChapters);
+window.location.href = "index.html";
         }
     });
 
