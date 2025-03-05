@@ -73,28 +73,41 @@ document.addEventListener("DOMContentLoaded", function () {
         nextButton.classList.add("hidden");
     }
 
-    function checkAnswer(selectedIndex, correctIndex) {
-        let buttons = document.querySelectorAll(".option-btn");
-        buttons.forEach((button, index) => {
-            button.disabled = true;
-            if (index === correctIndex) {
-                button.classList.add("correct");
-            }
-            if (index === selectedIndex && index !== correctIndex) {
-                button.classList.add("wrong");
-            }
-        });
-
-        if (selectedIndex === correctIndex) {
-            correctAnswers++;
+function checkAnswer(selectedIndex, correctIndex) {
+    let buttons = document.querySelectorAll(".option-btn");
+    buttons.forEach((button, index) => {
+        button.disabled = true;
+        if (index === correctIndex) {
+            button.classList.add("correct");
         }
+        if (index === selectedIndex && index !== correctIndex) {
+            button.classList.add("wrong");
+        }
+    });
 
-        explanationText.classList.remove("hidden");
-        nextButton.classList.remove("hidden");
+    if (selectedIndex !== correctIndex) {
+        // ✅ **插入此代码**
+        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+        mistakes.push(questions[currentQuestionIndex]);
+        localStorage.setItem("mistakes", JSON.stringify(mistakes));
 
-        progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
-        accuracyText.textContent = `${Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100)}%`;
+        console.log("❌ 错题已存入 localStorage:", mistakes);
+        // ✅ **插入结束**
     }
+
+    if (selectedIndex === correctIndex) {
+        correctAnswers++;
+    }
+
+    explanationText.textContent = (currentLanguage === "cn") ? questions[currentQuestionIndex].explanation_cn : questions[currentQuestionIndex].explanation_en;
+    explanationText.classList.remove("hidden");
+
+    nextButton.classList.remove("hidden");
+
+    progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
+    accuracyText.textContent = `${Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100)}%`;
+}
+
 
     nextButton.addEventListener("click", function () {
         currentQuestionIndex++;
