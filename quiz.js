@@ -24,6 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
     let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
     let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
 
+    // 获取当前章节
+    let currentChapter = questions[0].chapter;
+
+    // **✅ 如果用户重新选择已完成章节，先移除"已完成"状态**
+    if (completedChapters.includes(currentChapter)) {
+        completedChapters = completedChapters.filter(ch => ch !== currentChapter);
+        localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
+    }
+
     function updateLanguageButton() {
         languageSwitch.textContent = (currentLanguage === "cn") ? "Switch to English" : "切换至中文";
     }
@@ -70,10 +79,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (selectedIndex === correctIndex) {
             correctAnswers++;
-            // 如果错题列表中有这个题，并且做对了，就移除
+            // ✅ **如果做对错题，从错题列表移除**
             mistakes = mistakes.filter(q => q.question_en !== questions[currentQuestionIndex].question_en);
         } else {
-            // 只有不在错题列表中的，才加入错题
+            // ✅ **如果选错，并且不在错题列表，添加进去**
             if (!mistakes.some(q => q.question_en === questions[currentQuestionIndex].question_en)) {
                 mistakes.push(questions[currentQuestionIndex]);
             }
@@ -98,11 +107,9 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
 
-            let chapterNumber = questions[0].chapter;
-
-            // **✅ 只有所有题目都完成，才标记章节为已完成**
-            if (!completedChapters.includes(chapterNumber)) {
-                completedChapters.push(chapterNumber);
+            // ✅ **只有 "所有题目都完成" 且 "没有错题" 才标记章节已完成**
+            if (!completedChapters.includes(currentChapter) && mistakes.length === 0) {
+                completedChapters.push(currentChapter);
                 localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
             }
 
