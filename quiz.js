@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
+    let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+
     function updateLanguageButton() {
         languageSwitch.textContent = (currentLanguage === "cn") ? "Switch to English" : "切换至中文";
     }
@@ -54,15 +56,37 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function checkAnswer(selectedIndex, correctIndex) {
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        if (selectedIndex !== correctIndex) {
-            mistakes.push(questions[currentQuestionIndex]);
-        } else {
+        let buttons = document.querySelectorAll(".option-btn");
+        buttons.forEach((button, index) => {
+            button.disabled = true;
+            if (index === correctIndex) {
+                button.classList.add("correct");
+            }
+            if (index === selectedIndex && index !== correctIndex) {
+                button.classList.add("wrong");
+            }
+        });
+
+        if (selectedIndex === correctIndex) {
+            correctAnswers++;
+            // 如果之前错了，现在做对了，就从错题列表中删除
             mistakes = mistakes.filter(q => q.question_en !== questions[currentQuestionIndex].question_en);
+        } else {
+            // 只有没在错题列表中才加入错题
+            if (!mistakes.some(q => q.question_en === questions[currentQuestionIndex].question_en)) {
+                mistakes.push(questions[currentQuestionIndex]);
+            }
         }
+
         localStorage.setItem("mistakes", JSON.stringify(mistakes));
 
+        explanationText.textContent = (currentLanguage === "cn") ? questions[currentQuestionIndex].explanation_cn : questions[currentQuestionIndex].explanation_en;
+        explanationText.classList.remove("hidden");
+
         nextButton.classList.remove("hidden");
+
+        progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
+        accuracyText.textContent = `${Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100)}%`;
     }
 
     nextButton.addEventListener("click", function () {
@@ -70,6 +94,15 @@ document.addEventListener("DOMContentLoaded", function () {
         if (currentQuestionIndex < questions.length) {
             loadQuestion();
         } else {
+            alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
+
+            let chapterNumber = questions[0].chapter;
+            let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+            if (!completedChapters.includes(chapterNumber)) {
+                completedChapters.push(chapterNumber);
+            }
+            localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
+
             window.location.href = "index.html";
         }
     });
