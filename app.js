@@ -12,28 +12,32 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("❌ 错误: 章节进度列表的 DOM 元素未找到！");
     }
 
-    fetch("questions.json")
-        .then(response => response.json())
-        .then(data => {
-            questions = data;
-            console.log("✅ 题库加载成功:", questions);
+fetch("questions.json")
+    .then(response => response.json())
+    .then(data => {
+        questions = data;
+        console.log("✅ 题库加载成功:", questions);
 
-            const totalChapters = Math.max(...questions.map(q => q.chapter));
-            chapterSelect.innerHTML = "";
+        const totalChapters = Math.max(...questions.map(q => q.chapter));
+        chapterSelect.innerHTML = "";
 
-            for (let i = 1; i <= totalChapters; i++) {
-                const option = document.createElement("option");
-                option.value = i;
-                option.textContent = `Chapter ${i}`;
-                chapterSelect.appendChild(option);
+        // ✅ **插入此代码**
+        let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+        // ✅ **插入结束**
 
-                // 更新章节进度显示
-                const listItem = document.createElement("li");
-                listItem.textContent = `章节 ${i} - ${completedChapters.includes(i) ? "✅ 已完成" : "⚪ 未开始"}`;
-                chapterProgressList.appendChild(listItem);
-            }
-        })
-        .catch(error => console.error("❌ 加载题库失败:", error));
+        for (let i = 1; i <= totalChapters; i++) {
+            const option = document.createElement("option");
+            option.value = i;
+            option.textContent = `Chapter ${i}`;
+            chapterSelect.appendChild(option);
+
+            // **更新章节进度显示**
+            const listItem = document.createElement("li");
+            listItem.textContent = `章节 ${i} - ${completedChapters.includes(i) ? "✅ 已完成" : "⚪ 未开始"}`;
+            chapterProgressList.appendChild(listItem);
+        }
+    })
+    .catch(error => console.error("❌ 加载题库失败:", error));
 
     startButton.addEventListener("click", function () {
         if (!questions.length) {
