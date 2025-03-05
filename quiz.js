@@ -85,31 +85,29 @@ function checkAnswer(selectedIndex, correctIndex) {
         }
     });
 
-    if (selectedIndex !== correctIndex) {
-        // ✅ **插入此代码**
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        mistakes.push(questions[currentQuestionIndex]);
-        localStorage.setItem("mistakes", JSON.stringify(mistakes));
-
-        console.log("❌ 错题已存入 localStorage:", mistakes);
-        // ✅ **插入结束**
-    }
-
     if (selectedIndex === correctIndex) {
         correctAnswers++;
+
+        // ✅ **检查是否在错题模式**
+        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+        let questionText = questions[currentQuestionIndex].question_en; // 以英文题目为基准
+        
+        // ✅ **如果当前题目在错题列表中，删除它**
+        mistakes = mistakes.filter(q => q.question_en !== questionText);
+        localStorage.setItem("mistakes", JSON.stringify(mistakes));
+
+        console.log("✅ 已从错题列表移除:", mistakes);
     }
 
     explanationText.textContent = (currentLanguage === "cn") ? questions[currentQuestionIndex].explanation_cn : questions[currentQuestionIndex].explanation_en;
     explanationText.classList.remove("hidden");
-
     nextButton.classList.remove("hidden");
 
     progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
     accuracyText.textContent = `${Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100)}%`;
 }
 
-
-  nextButton.addEventListener("click", function () {
+ nextButton.addEventListener("click", function () {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
@@ -130,7 +128,6 @@ function checkAnswer(selectedIndex, correctIndex) {
         window.location.href = "index.html";
     }
 });
-
 
     loadQuestion();
 });
