@@ -10,11 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const progressText = document.getElementById("progress");
     const accuracyText = document.getElementById("accuracy");
 
-    if (!nextButton || !backButton || !questionText || !optionsContainer) {
-        console.error("❌ Error: One or more DOM elements not found!");
-        return;
-    }
-
     let currentLanguage = localStorage.getItem("language") || "cn";
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
@@ -25,9 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "index.html";
         return;
     }
-
-    console.log("Loaded Questions:", questions);
-    progressText.textContent = `0 / ${questions.length}`;
 
     function updateLanguageButton() {
         languageSwitch.textContent = (currentLanguage === "cn") ? "Switch to English" : "切换至中文";
@@ -43,17 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     updateLanguageButton();
 
     function loadQuestion() {
-        if (currentQuestionIndex >= questions.length) {
-            console.error("❌ No more questions available.");
-            return;
-        }
-
         let question = questions[currentQuestionIndex];
-        if (!question) {
-            console.error("❌ Invalid question data.");
-            return;
-        }
-        
         questionText.textContent = (currentLanguage === "cn") ? question.question_cn : question.question_en;
 
         optionsContainer.innerHTML = "";
@@ -67,67 +49,34 @@ document.addEventListener("DOMContentLoaded", function () {
             optionsContainer.appendChild(button);
         });
 
-        explanationText.textContent = (currentLanguage === "cn") ? question.explanation_cn : question.explanation_en;
         explanationText.classList.add("hidden");
-
         nextButton.classList.add("hidden");
     }
 
-function checkAnswer(selectedIndex, correctIndex) {
-    let buttons = document.querySelectorAll(".option-btn");
-    buttons.forEach((button, index) => {
-        button.disabled = true;
-        if (index === correctIndex) {
-            button.classList.add("correct");
+    function checkAnswer(selectedIndex, correctIndex) {
+        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+        if (selectedIndex !== correctIndex) {
+            mistakes.push(questions[currentQuestionIndex]);
+        } else {
+            mistakes = mistakes.filter(q => q.question_en !== questions[currentQuestionIndex].question_en);
         }
-        if (index === selectedIndex && index !== correctIndex) {
-            button.classList.add("wrong");
+        localStorage.setItem("mistakes", JSON.stringify(mistakes));
+
+        nextButton.classList.remove("hidden");
+    }
+
+    nextButton.addEventListener("click", function () {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            loadQuestion();
+        } else {
+            window.location.href = "index.html";
         }
     });
 
-    if (selectedIndex === correctIndex) {
-        correctAnswers++;
-
-        // ✅ **检查是否在错题模式**
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        let questionText = questions[currentQuestionIndex].question_en; // 以英文题目为基准
-        
-        // ✅ **如果当前题目在错题列表中，删除它**
-        mistakes = mistakes.filter(q => q.question_en !== questionText);
-        localStorage.setItem("mistakes", JSON.stringify(mistakes));
-
-        console.log("✅ 已从错题列表移除:", mistakes);
-    }
-
-    explanationText.textContent = (currentLanguage === "cn") ? questions[currentQuestionIndex].explanation_cn : questions[currentQuestionIndex].explanation_en;
-    explanationText.classList.remove("hidden");
-    nextButton.classList.remove("hidden");
-
-    progressText.textContent = `${currentQuestionIndex + 1} / ${questions.length}`;
-    accuracyText.textContent = `${Math.round((correctAnswers / (currentQuestionIndex + 1)) * 100)}%`;
-}
-
- nextButton.addEventListener("click", function () {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        loadQuestion();
-    } else {
-        // ✅ **确保章节只有在错题列表为空时才标记为完成**
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        let chapterNumber = questions[0].chapter;
-
-        if (mistakes.length === 0) { 
-            let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
-            if (!completedChapters.includes(chapterNumber)) {
-                completedChapters.push(chapterNumber);
-            }
-            localStorage.setItem("completedChapters", JSON.stringify(completedChapters));
-        }
-
-        alert(`🎉 章节完成！正确率: ${Math.round((correctAnswers / questions.length) * 100)}%`);
+    backButton.addEventListener("click", function () {
         window.location.href = "index.html";
-    }
-});
+    });
 
     loadQuestion();
 });
