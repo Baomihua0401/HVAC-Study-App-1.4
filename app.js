@@ -1,64 +1,73 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const chapterSelect = document.getElementById("chapter-select");
-    const startButton = document.getElementById("start-btn");
-    const reviewMistakesButton = document.getElementById("review-mistakes-btn");
-    const chapterProgressList = document.getElementById("chapter-progress");
+// app.js
 
-    let questions = [];
-    let completedChapters = JSON.parse(localStorage.getItem("completedChapters")) || [];
+const lawFile = "questions_law.json";
+const skillFile = "questions_skill.json";
 
-    fetch("questions.json")
-        .then(response => response.json())
-        .then(data => {
+let currentBank = "law";
+let currentFile = lawFile;
+
+const bankSelect = document.getElementById("bank-select");
+const chapterSelect = document.getElementById("chapter-select");
+const startButton = document.getElementById("start-btn");
+const reviewButton = document.getElementById("review-btn");
+const progressList = document.getElementById("progress-list");
+
+let questions = [];
+
+function loadQuestions() {
+    fetch(currentFile)
+        .then((res) => res.json())
+        .then((data) => {
             questions = data;
-            console.log("✅ 题库加载成功:", questions);
+            const totalChapters = Math.max(...questions.map((q) => q.chapter));
 
-            const totalChapters = Math.max(...questions.map(q => q.chapter));
             chapterSelect.innerHTML = "";
-
             for (let i = 1; i <= totalChapters; i++) {
                 const option = document.createElement("option");
                 option.value = i;
                 option.textContent = `Chapter ${i}`;
                 chapterSelect.appendChild(option);
-
-                // 更新章节进度显示
-                const listItem = document.createElement("li");
-                listItem.textContent = `章节 ${i} - ${completedChapters.includes(i) ? "✅ 已完成" : "⚪ 未开始"}`;
-                chapterProgressList.appendChild(listItem);
             }
+
+            renderProgress(totalChapters);
         })
-        .catch(error => console.error("❌ 加载题库失败:", error));
+        .catch((err) => console.error("加载题库失败", err));
+}
 
-    startButton.addEventListener("click", function () {
-        if (!questions.length) {
-            alert("⚠️ 题库尚未加载，请稍后再试！");
-            return;
-        }
+function renderProgress(totalChapters) {
+    const completed = JSON.parse(localStorage.getItem(`${currentBank}_completedChapters`)) || [];
+    progressList.innerHTML = "";
+    for (let i = 1; i <= totalChapters; i++) {
+        const li = document.createElement("li");
+        li.textContent = `章节 ${i} - ${completed.includes(i) ? "✅ 已完成" : "⚪ 未开始"}`;
+        progressList.appendChild(li);
+    }
+}
 
-        const selectedChapter = parseInt(chapterSelect.value);
-        console.log("📌 选择章节:", selectedChapter);
-
-        const chapterQuestions = questions.filter(q => q.chapter === selectedChapter);
-        if (chapterQuestions.length === 0) {
-            alert(`⚠️ 章节 ${selectedChapter} 还没有题目！`);
-            return;
-        }
-
-        localStorage.setItem("currentQuestions", JSON.stringify(chapterQuestions));
-        localStorage.setItem("currentQuestionIndex", "0");
-
-        console.log("📥 题库已存入 localStorage:", chapterQuestions);
-        window.location.href = "quiz.html";
-    });
-
-    reviewMistakesButton.addEventListener("click", function () {
-        let mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
-        if (mistakes.length === 0) {
-            alert("暂无错题！");
-            return;
-        }
-        localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
-        window.location.href = "quiz.html";
-    });
+bankSelect.addEventListener("change", () => {
+    currentBank = bankSelect.value;
+    currentFile = currentBank === "law" ? lawFile : skillFile;
+    loadQuestions();
 });
+
+startButton.addEventListener("click", () => {
+    if (!questions.length) return alert("题库加载失败！");
+    const chapter = parseInt(chapterSelect.value);
+    const chapterQuestions = questions.filter((q) => q.chapter === chapter);
+    if (chapterQuestions.length === 0) return alert("此章节暂无题目");
+
+    localStorage.setItem("currentQuestions", JSON.stringify(chapterQuestions));
+    localStorage.setItem("currentBank", currentBank);
+    window.location.href = "quiz.html";
+});
+
+reviewButton.addEventListener("click", () => {
+    const mistakes = JSON.parse(localStorage.getItem(`${currentBank}_mistakes`)) || [];
+    if (mistakes.length === 0) return alert("暂无错题");
+    localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
+    localStorage.setItem("currentBank", currentBank);
+    window.location.href = "quiz.html";
+});
+
+// Initial load
+loadQuestions();
