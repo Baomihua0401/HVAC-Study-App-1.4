@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>章节答题</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>章节答题</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>章节答题</h1>
+  <h1>章节答题</h1>
+  <button id="language-switch">Switch to English</button>
 
-    <button id="language-switch">Switch to English</button>
+  <div id="quiz-container">
+    <p id="question-text">加载中...</p>
+    <div id="options"></div>
+    <p id="explanation" class="hidden"></p>
+    <p id="progress"></p>
+    <p id="accuracy"></p>
+    <button id="next-btn" class="hidden">下一题</button>
+    <button id="back-btn">返回章节选择</button>
+  </div>
 
-    <div id="quiz-container">
-        <p id="question-text">加载中...</p>
-        <div id="options"></div>
-        <p id="explanation" class="hidden"></p>
-        <p id="progress"></p>
-        <p id="accuracy"></p>
-        <button id="next-btn" class="hidden">下一题</button>
-        <button id="back-btn">返回章节</button>
-    </div>
-
-    <script src="quiz.js"></script>
+  <script src="quiz.js"></script>
 </body>
 </html>
