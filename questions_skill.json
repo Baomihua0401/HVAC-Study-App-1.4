@@ -113,19 +113,19 @@
     "question_cn": "以下哪项是暖通空调系统启动的正确顺序？",
     "options": [
       {
-        "en": "Inspect components, turn on power, test airflow ，，",
+        "en": "Inspect components, turn on power, test airflow ，",
         "cn": "检查组件，接通电源，测试气流"
       },
       {
-        "en": "Turn on power, adjust settings, inspect components ，，",
+        "en": "Turn on power, adjust settings, inspect components ，",
         "cn": "接通电源，调整设置，检查组件"
       },
       {
-        "en": "Inspect components, adjust settings, turn on power ，，",
+        "en": "Inspect components, adjust settings, turn on power ，",
         "cn": "检查组件，调整设置，接通电源"
       },
       {
-        "en": "Test airflow, turn on power, inspect components ，，",
+        "en": "Test airflow, turn on power, inspect components ，",
         "cn": "测试气流，接通电源，检查组件"
       }
     ],
@@ -380,7 +380,7 @@
   {
     "question_id": 15,
     "question_en": "According to Cal/OSHA, which type of fire extinguisher should be on-site when working with flammable refrigerants?",
-    "question_cn": "根据 /，在使用易燃制冷剂时现场应配备哪种类型的灭火器？",
+    "question_cn": "根据 Cal/OSHA，在使用易燃制冷剂时现场应配备哪种类型的灭火器？",
     "options": [
       {
         "en": "Type A",
@@ -1256,7 +1256,7 @@
       },
       {
         "en": "Every 3-6 months  3-6",
-        "cn": "每 36 个月"
+        "cn": "每 3-6 个月"
       },
       {
         "en": "Every year",
@@ -1487,7 +1487,7 @@
   {
     "question_id": 56,
     "question_en": "Which type of thermostat is most suitable for a zoning HVAC system?",
-    "question_cn": "哪种类型的恒温器最适合分区暖通空调系统？",
+    "question_cn": "最适合用于分区暖通空调系统的恒温器类型是？",
     "options": [
       {
         "en": "Programmable thermostat",
