@@ -1,5 +1,6 @@
 [
   {
+    "question_id": 1,
     "question_en": "When designing an HVAC system, what is the primary factor to consider in load calculations?",
     "question_cn": "在设计暖通空调系统时，负载计算的首要因素是什么？",
     "options": [
@@ -26,6 +27,7 @@
     "chapter": 1
   },
   {
+    "question_id": 2,
     "question_en": "Which of the following tools is commonly used to measure air velocity in an HVAC system?",
     "question_cn": "以下哪种工具通常用于测量暖通空调系统中的空气流速？",
     "options": [
@@ -52,6 +54,7 @@
     "chapter": 1
   },
   {
+    "question_id": 3,
     "question_en": "According to Cal/OSHA, which of the following is required when working with refrigerants?",
     "question_cn": "根据Cal/OSHA，在处理制冷剂时以下哪项是必需的？",
     "options": [
@@ -78,6 +81,7 @@
     "chapter": 1
   },
   {
+    "question_id": 4,
     "question_en": "What is the primary purpose of a psychrometric chart in HVAC system design?",
     "question_cn": "焓湿图在暖通空调系统设计中的主要用途是什么？",
     "options": [
@@ -104,6 +108,7 @@
     "chapter": 1
   },
   {
+    "question_id": 5,
     "question_en": "Which of the following is the correct sequence for HVAC system startup?",
     "question_cn": "以下哪项是暖通空调系统启动的正确顺序？",
     "options": [
@@ -130,6 +135,7 @@
     "chapter": 1
   },
   {
+    "question_id": 6,
     "question_en": "What type of PPE is required when welding ductwork in an HVAC system?",
     "question_cn": "在暖通空调系统中焊接管道时需要使用哪种个人防护装备？",
     "options": [
@@ -156,6 +162,7 @@
     "chapter": 1
   },
   {
+    "question_id": 7,
     "question_en": "How should refrigerants be stored to comply with safety regulations?",
     "question_cn": "为符合安全规定，制冷剂应如何存储？",
     "options": [
@@ -182,6 +189,7 @@
     "chapter": 1
   },
   {
+    "question_id": 8,
     "question_en": "What is the primary function of a damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中阻尼器的主要功能是什么？",
     "options": [
@@ -208,6 +216,7 @@
     "chapter": 1
   },
   {
+    "question_id": 9,
     "question_en": "Which of the following is a key consideration when selecting an air filter for an HVAC system?",
     "question_cn": "选择暖通空调系统空气过滤器时的关键考虑因素是什么？",
     "options": [
@@ -234,6 +243,7 @@
     "chapter": 1
   },
   {
+    "question_id": 10,
     "question_en": "What is the purpose of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的用途是什么？",
     "options": [
@@ -260,6 +270,7 @@
     "chapter": 1
   },
   {
+    "question_id": 11,
     "question_en": "Which calculation is essential for determining the proper size of an HVAC system?",
     "question_cn": "确定暖通空调系统合适尺寸时，哪种计算是必需的？",
     "options": [
@@ -286,6 +297,7 @@
     "chapter": 1
   },
   {
+    "question_id": 12,
     "question_en": "What is the purpose of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的作用是什么？",
     "options": [
@@ -312,6 +324,7 @@
     "chapter": 1
   },
   {
+    "question_id": 13,
     "question_en": "Which tool is essential for measuring refrigerant pressure during an HVAC system check?",
     "question_cn": "在检查暖通空调系统时测量制冷剂压力所需的关键工具是什么？",
     "options": [
@@ -338,6 +351,7 @@
     "chapter": 1
   },
   {
+    "question_id": 14,
     "question_en": "Which material is most commonly used for residential HVAC ductwork?",
     "question_cn": "住宅暖通空调管道最常用的材料是什么？",
     "options": [
@@ -364,6 +378,7 @@
     "chapter": 1
   },
   {
+    "question_id": 15,
     "question_en": "According to Cal/OSHA, which type of fire extinguisher should be on-site when working with flammable refrigerants?",
     "question_cn": "根据 /，在使用易燃制冷剂时现场应配备哪种类型的灭火器？",
     "options": [
@@ -390,6 +405,7 @@
     "chapter": 1
   },
   {
+    "question_id": 16,
     "question_en": "What is the primary function of an expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中膨胀阀的主要功能是什么？",
     "options": [
@@ -416,6 +432,7 @@
     "chapter": 1
   },
   {
+    "question_id": 17,
     "question_en": "What is the main hazard of overcharging an HVAC system with refrigerant?",
     "question_cn": "过量充注暖通空调系统制冷剂的主要危害是什么？",
     "options": [
@@ -442,6 +459,7 @@
     "chapter": 1
   },
   {
+    "question_id": 18,
     "question_en": "What is the purpose of a condensate drain in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水排水管的作用是什么？",
     "options": [
@@ -468,6 +486,7 @@
     "chapter": 1
   },
   {
+    "question_id": 19,
     "question_en": "What is the primary purpose of insulation on HVAC ductwork?",
     "question_cn": "暖通空调管道上隔热层的主要用途是什么？",
     "options": [
@@ -494,6 +513,7 @@
     "chapter": 1
   },
   {
+    "question_id": 20,
     "question_en": "Which of the following is a common symptom of a refrigerant leak in an HVAC system?",
     "question_cn": "暖通空调系统制冷剂泄漏的常见症状是什么？",
     "options": [
@@ -520,6 +540,7 @@
     "chapter": 1
   },
   {
+    "question_id": 21,
     "question_en": "What is the recommended method for sealing ductwork connections in HVAC systems?",
     "question_cn": "推荐用于密封暖通空调系统管道连接的方法是什么？",
     "options": [
@@ -546,6 +567,7 @@
     "chapter": 2
   },
   {
+    "question_id": 22,
     "question_en": "What is the main advantage of using a variable-speed blower motor in an HVAC system?",
     "question_cn": "在暖通空调系统中使用变速鼓风机电机的主要优势是什么？",
     "options": [
@@ -572,6 +594,7 @@
     "chapter": 2
   },
   {
+    "question_id": 23,
     "question_en": "What is the function of a refrigerant recovery machine?",
     "question_cn": "制冷剂回收机的功能是什么？",
     "options": [
@@ -598,6 +621,7 @@
     "chapter": 2
   },
   {
+    "question_id": 24,
     "question_en": "What is the primary purpose of a balancing damper in an HVAC system?",
     "question_cn": "暖通空调系统中平衡阻尼器的主要用途是什么？",
     "options": [
@@ -624,6 +648,7 @@
     "chapter": 2
   },
   {
+    "question_id": 25,
     "question_en": "What is the significance of SEER ratings in HVAC systems?",
     "question_cn": "暖通空调系统中  等级的重要性是什么？",
     "options": [
@@ -650,6 +675,7 @@
     "chapter": 2
   },
   {
+    "question_id": 26,
     "question_en": "What type of refrigerant is commonly used in residential air conditioning systems?",
     "question_cn": "住宅空调系统中常用哪种类型的制冷剂？",
     "options": [
@@ -676,6 +702,7 @@
     "chapter": 2
   },
   {
+    "question_id": 27,
     "question_en": "How is airflow typically measured in an HVAC system?",
     "question_cn": "在暖通空调系统中通常如何测量气流？",
     "options": [
@@ -702,6 +729,7 @@
     "chapter": 2
   },
   {
+    "question_id": 28,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的作用是什么？",
     "options": [
@@ -728,6 +756,7 @@
     "chapter": 2
   },
   {
+    "question_id": 29,
     "question_en": "Which of the following is a common sign of insufficient duct insulation?",
     "question_cn": "管道隔热不足的常见迹象是什么？",
     "options": [
@@ -754,6 +783,7 @@
     "chapter": 2
   },
   {
+    "question_id": 30,
     "question_en": "Which of the following tools is used to test the refrigerant level in an HVAC system?",
     "question_cn": "以下哪种工具用于测试暖通空调系统中的制冷剂水平？",
     "options": [
@@ -780,6 +810,7 @@
     "chapter": 2
   },
   {
+    "question_id": 31,
     "question_en": "What is the function of a return air duct in an HVAC system?",
     "question_cn": "暖通空调系统中回风管的作用是什么？",
     "options": [
@@ -806,6 +837,7 @@
     "chapter": 2
   },
   {
+    "question_id": 32,
     "question_en": "Which safety measure is required when handling refrigerant cylinders?",
     "question_cn": "处理制冷剂钢瓶时需要采取哪种安全措施？",
     "options": [
@@ -832,6 +864,7 @@
     "chapter": 2
   },
   {
+    "question_id": 33,
     "question_en": "What is the primary benefit of using a zoning system in an HVAC installation?",
     "question_cn": "在暖通空调安装中使用分区系统的主要好处是什么？",
     "options": [
@@ -858,6 +891,7 @@
     "chapter": 2
   },
   {
+    "question_id": 34,
     "question_en": "What type of piping is typically used for refrigerant lines in residential HVAC systems?",
     "question_cn": "住宅暖通空调系统中的制冷剂管道通常使用哪种类型的管材？",
     "options": [
@@ -884,6 +918,7 @@
     "chapter": 2
   },
   {
+    "question_id": 35,
     "question_en": "Which test is performed to check for leaks in an HVAC system?",
     "question_cn": "检查暖通空调系统泄漏时进行哪种测试？",
     "options": [
@@ -910,6 +945,7 @@
     "chapter": 2
   },
   {
+    "question_id": 36,
     "question_en": "How does a heat pump function differently from a standard air conditioner?",
     "question_cn": "热泵与标准空调的功能有何不同？",
     "options": [
@@ -936,6 +972,7 @@
     "chapter": 2
   },
   {
+    "question_id": 37,
     "question_en": "Which component in an HVAC system is responsible for transferring heat between the indoor and outdoor environments?",
     "question_cn": "暖通空调系统中哪个部件负责在室内和室外环境之间传递热量？",
     "options": [
@@ -962,6 +999,7 @@
     "chapter": 2
   },
   {
+    "question_id": 38,
     "question_en": "What is the main purpose of a filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中过滤干燥器的主要用途是什么？",
     "options": [
@@ -988,6 +1026,7 @@
     "chapter": 2
   },
   {
+    "question_id": 39,
     "question_en": "Which of the following is a potential result of oversized HVAC equipment?",
     "question_cn": "暖通空调设备过大可能导致什么结果？",
     "options": [
@@ -1014,6 +1053,7 @@
     "chapter": 2
   },
   {
+    "question_id": 40,
     "question_en": "What is the recommended tool for measuring humidity levels in an HVAC system?",
     "question_cn": "推荐用于测量暖通空调系统湿度水平的工具是什么？",
     "options": [
@@ -1040,6 +1080,7 @@
     "chapter": 2
   },
   {
+    "question_id": 41,
     "question_en": "What is the purpose of an air handler in an HVAC system?",
     "question_cn": "暖通空调系统中空气处理机的作用是什么？",
     "options": [
@@ -1066,6 +1107,7 @@
     "chapter": 3
   },
   {
+    "question_id": 42,
     "question_en": "How is airflow balance achieved in a multi-zone HVAC system?",
     "question_cn": "在多区域暖通空调系统中如何实现气流平衡？",
     "options": [
@@ -1092,6 +1134,7 @@
     "chapter": 3
   },
   {
+    "question_id": 43,
     "question_en": "What is a common symptom of a clogged evaporator coil?",
     "question_cn": "蒸发器线圈堵塞的常见症状是什么？",
     "options": [
@@ -1118,6 +1161,7 @@
     "chapter": 3
   },
   {
+    "question_id": 44,
     "question_en": "What is the primary purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的主要用途是什么？",
     "options": [
@@ -1144,6 +1188,7 @@
     "chapter": 3
   },
   {
+    "question_id": 45,
     "question_en": "What is the importance of proper duct sizing in HVAC system design?",
     "question_cn": "暖通空调系统设计中正确管道尺寸的重要性是什么？",
     "options": [
@@ -1170,6 +1215,7 @@
     "chapter": 3
   },
   {
+    "question_id": 46,
     "question_en": "What is the function of a heat exchanger in a furnace?",
     "question_cn": "炉子中换热器的功能是什么？",
     "options": [
@@ -1196,6 +1242,7 @@
     "chapter": 3
   },
   {
+    "question_id": 47,
     "question_en": "How often should air filters in HVAC systems typically be replaced?",
     "question_cn": "暖通空调系统中的空气过滤器通常应多久更换一次？",
     "options": [
@@ -1222,6 +1269,7 @@
     "chapter": 3
   },
   {
+    "question_id": 48,
     "question_en": "What is a common cause of short cycling in an HVAC system?",
     "question_cn": "暖通空调系统中短周期运行的常见原因是什么？",
     "options": [
@@ -1248,6 +1296,7 @@
     "chapter": 3
   },
   {
+    "question_id": 49,
     "question_en": "What is the purpose of a vacuum pump in HVAC maintenance?",
     "question_cn": "暖通空调维护中真空泵的用途是什么？",
     "options": [
@@ -1274,6 +1323,7 @@
     "chapter": 3
   },
   {
+    "question_id": 50,
     "question_en": "Which of the following is essential for diagnosing an HVAC system fault?",
     "question_cn": "诊断暖通空调系统故障的关键工具是什么？",
     "options": [
@@ -1300,6 +1350,7 @@
     "chapter": 3
   },
   {
+    "question_id": 51,
     "question_en": "What is the purpose of a defrost cycle in a heat pump?",
     "question_cn": "热泵中的除霜循环的作用是什么？",
     "options": [
@@ -1326,6 +1377,7 @@
     "chapter": 3
   },
   {
+    "question_id": 52,
     "question_en": "Which refrigerant property is measured using a psychrometer?",
     "question_cn": "使用湿度计测量哪种制冷剂特性？",
     "options": [
@@ -1352,6 +1404,7 @@
     "chapter": 3
   },
   {
+    "question_id": 53,
     "question_en": "What is the primary function of an accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中蓄液器的主要功能是什么？",
     "options": [
@@ -1378,6 +1431,7 @@
     "chapter": 3
   },
   {
+    "question_id": 54,
     "question_en": "What is a potential consequence of an improperly sized duct system?",
     "question_cn": "管道系统尺寸不当可能导致什么后果？",
     "options": [
@@ -1404,6 +1458,7 @@
     "chapter": 3
   },
   {
+    "question_id": 55,
     "question_en": "What is the primary purpose of a capacitor in an HVAC system?",
     "question_cn": "暖通空调系统中电容器的主要用途是什么？",
     "options": [
@@ -1430,6 +1485,7 @@
     "chapter": 3
   },
   {
+    "question_id": 56,
     "question_en": "Which type of thermostat is most suitable for a zoning HVAC system?",
     "question_cn": "哪种类型的恒温器最适合分区暖通空调系统？",
     "options": [
@@ -1456,6 +1512,7 @@
     "chapter": 3
   },
   {
+    "question_id": 57,
     "question_en": "What is the function of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的功能是什么？",
     "options": [
@@ -1482,6 +1539,7 @@
     "chapter": 3
   },
   {
+    "question_id": 58,
     "question_en": "What is a common cause of reduced airflow in an HVAC system?",
     "question_cn": "暖通空调系统中气流减少的常见原因是什么？",
     "options": [
@@ -1508,6 +1566,7 @@
     "chapter": 3
   },
   {
+    "question_id": 59,
     "question_en": "Which component is responsible for cooling the refrigerant in an HVAC system?",
     "question_cn": "暖通空调系统中哪个部件负责冷却制冷剂？",
     "options": [
@@ -1534,6 +1593,7 @@
     "chapter": 3
   },
   {
+    "question_id": 60,
     "question_en": "How is airflow typically balanced in an HVAC duct system?",
     "question_cn": "在暖通空调管道系统中通常如何平衡气流？",
     "options": [
@@ -1560,6 +1620,7 @@
     "chapter": 3
   },
   {
+    "question_id": 61,
     "question_en": "What is the primary purpose of a bypass damper in an HVAC zoning system?",
     "question_cn": "暖通空调分区系统中旁通阻尼器的主要用途是什么？",
     "options": [
@@ -1586,6 +1647,7 @@
     "chapter": 4
   },
   {
+    "question_id": 62,
     "question_en": "Which of the following is a common symptom of a failing HVAC capacitor?",
     "question_cn": "暖通空调电容器故障的常见症状是什么？",
     "options": [
@@ -1612,6 +1674,7 @@
     "chapter": 4
   },
   {
+    "question_id": 63,
     "question_en": "What is the recommended slope for condensate drain lines in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水排水管的推荐坡度是多少？",
     "options": [
@@ -1638,6 +1701,7 @@
     "chapter": 4
   },
   {
+    "question_id": 64,
     "question_en": "Which of the following components is essential for heat transfer in an HVAC system?",
     "question_cn": "暖通空调系统中哪些部件对热量传递至关重要？",
     "options": [
@@ -1664,6 +1728,7 @@
     "chapter": 4
   },
   {
+    "question_id": 65,
     "question_en": "What type of refrigerant piping insulation is commonly used to prevent energy loss?",
     "question_cn": "防止能量损失常用哪种类型的制冷剂管道绝缘材料？",
     "options": [
@@ -1690,6 +1755,7 @@
     "chapter": 4
   },
   {
+    "question_id": 66,
     "question_en": "What is the function of an air balancing hood in HVAC maintenance?",
     "question_cn": "暖通空调维护中空气平衡罩的功能是什么？",
     "options": [
@@ -1716,6 +1782,7 @@
     "chapter": 4
   },
   {
+    "question_id": 67,
     "question_en": "What is the main purpose of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的主要作用是什么？",
     "options": [
@@ -1742,6 +1809,7 @@
     "chapter": 4
   },
   {
+    "question_id": 68,
     "question_en": "What is a common indicator of an oversized HVAC system?",
     "question_cn": "暖通空调系统过大的常见指标是什么？",
     "options": [
@@ -1768,6 +1836,7 @@
     "chapter": 4
   },
   {
+    "question_id": 69,
     "question_en": "How is a refrigerant leak commonly detected in an HVAC system?",
     "question_cn": "暖通空调系统中常用哪种方法检测制冷剂泄漏？",
     "options": [
@@ -1794,6 +1863,7 @@
     "chapter": 4
   },
   {
+    "question_id": 70,
     "question_en": "What is the recommended minimum clearance for outdoor HVAC units?",
     "question_cn": "室外暖通空调设备的推荐最小净空是多少？",
     "options": [
@@ -1820,6 +1890,7 @@
     "chapter": 4
   },
   {
+    "question_id": 71,
     "question_en": "What is the primary purpose of a high-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中高压开关的主要作用是什么？",
     "options": [
@@ -1846,6 +1917,7 @@
     "chapter": 4
   },
   {
+    "question_id": 72,
     "question_en": "Which of the following can cause an HVAC compressor to fail?",
     "question_cn": "以下哪项可能导致暖通空调压缩机故障？",
     "options": [
@@ -1872,6 +1944,7 @@
     "chapter": 4
   },
   {
+    "question_id": 73,
     "question_en": "What is the function of a variable frequency drive (VFD) in an HVAC system?",
     "question_cn": "暖通空调系统中变频驱动器  的功能是什么？",
     "options": [
@@ -1898,6 +1971,7 @@
     "chapter": 4
   },
   {
+    "question_id": 74,
     "question_en": "What is the most common material used for HVAC condensate drain lines?",
     "question_cn": "暖通空调冷凝水排水管最常用的材料是什么？",
     "options": [
@@ -1924,6 +1998,7 @@
     "chapter": 4
   },
   {
+    "question_id": 75,
     "question_en": "Which HVAC component prevents liquid refrigerant from entering the compressor?",
     "question_cn": "暖通空调系统中哪个部件防止液态制冷剂进入压缩机？",
     "options": [
@@ -1950,6 +2025,7 @@
     "chapter": 4
   },
   {
+    "question_id": 76,
     "question_en": "How is system static pressure typically measured in an HVAC system?",
     "question_cn": "在暖通空调系统中通常如何测量系统静压？",
     "options": [
@@ -1976,6 +2052,7 @@
     "chapter": 4
   },
   {
+    "question_id": 77,
     "question_en": "What is the primary function of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的主要功能是什么？",
     "options": [
@@ -2002,6 +2079,7 @@
     "chapter": 4
   },
   {
+    "question_id": 78,
     "question_en": "What is the most common cause of frozen evaporator coils in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈结冰的最常见原因是什么？",
     "options": [
@@ -2028,6 +2106,7 @@
     "chapter": 4
   },
   {
+    "question_id": 79,
     "question_en": "What is the purpose of a low-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中低压开关的作用是什么？",
     "options": [
@@ -2054,6 +2133,7 @@
     "chapter": 4
   },
   {
+    "question_id": 80,
     "question_en": "How often should HVAC ductwork be inspected for leaks or damage?",
     "question_cn": "暖通空调管道应多久检查一次是否有泄漏或损坏？",
     "options": [
@@ -2080,6 +2160,7 @@
     "chapter": 4
   },
   {
+    "question_id": 81,
     "question_en": "What is the primary purpose of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的主要用途是什么？",
     "options": [
@@ -2106,6 +2187,7 @@
     "chapter": 5
   },
   {
+    "question_id": 82,
     "question_en": "Which HVAC component is responsible for absorbing heat from the indoor air?",
     "question_cn": "暖通空调系统中哪个部件负责从室内空气中吸收热量？",
     "options": [
@@ -2132,6 +2214,7 @@
     "chapter": 5
   },
   {
+    "question_id": 83,
     "question_en": "What is a common symptom of a malfunctioning HVAC thermostat?",
     "question_cn": "暖通空调恒温器故障的常见症状是什么？",
     "options": [
@@ -2158,6 +2241,7 @@
     "chapter": 5
   },
   {
+    "question_id": 84,
     "question_en": "How is duct leakage typically tested in an HVAC system?",
     "question_cn": "在暖通空调系统中通常如何测试管道泄漏？",
     "options": [
@@ -2184,6 +2268,7 @@
     "chapter": 5
   },
   {
+    "question_id": 85,
     "question_en": "What is the purpose of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -2210,6 +2295,7 @@
     "chapter": 5
   },
   {
+    "question_id": 86,
     "question_en": "Which of the following tools is used to measure refrigerant superheat in an HVAC system?",
     "question_cn": "以下哪种工具用于测量暖通空调系统中的制冷剂过热？",
     "options": [
@@ -2236,6 +2322,7 @@
     "chapter": 5
   },
   {
+    "question_id": 87,
     "question_en": "What is the recommended maximum temperature rise across a heat exchanger in a furnace?",
     "question_cn": "炉子中换热器的推荐最大温升是多少？",
     "options": [
@@ -2262,6 +2349,7 @@
     "chapter": 5
   },
   {
+    "question_id": 88,
     "question_en": "What is the purpose of a plenum in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中静压箱的作用是什么？",
     "options": [
@@ -2288,6 +2376,7 @@
     "chapter": 5
   },
   {
+    "question_id": 89,
     "question_en": "What is the purpose of using insulated ductwork in HVAC systems?",
     "question_cn": "在暖通空调系统中使用绝缘管道的目的是什么？",
     "options": [
@@ -2314,6 +2403,7 @@
     "chapter": 5
   },
   {
+    "question_id": 90,
     "question_en": "What is the primary cause of high static pressure in an HVAC system?",
     "question_cn": "暖通空调系统中静压过高的主要原因是什么？",
     "options": [
@@ -2340,6 +2430,7 @@
     "chapter": 5
   },
   {
+    "question_id": 91,
     "question_en": "What is the function of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的作用是什么？",
     "options": [
@@ -2366,6 +2457,7 @@
     "chapter": 5
   },
   {
+    "question_id": 92,
     "question_en": "What is the typical life expectancy of a modern HVAC system?",
     "question_cn": "现代暖通空调系统的典型使用寿命是多少？",
     "options": [
@@ -2392,6 +2484,7 @@
     "chapter": 5
   },
   {
+    "question_id": 93,
     "question_en": "What is the role of a thermal overload switch in an HVAC system?",
     "question_cn": "暖通空调系统中热过载开关的作用是什么？",
     "options": [
@@ -2418,6 +2511,7 @@
     "chapter": 5
   },
   {
+    "question_id": 94,
     "question_en": "What is the purpose of a suction line in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管的作用是什么？",
     "options": [
@@ -2444,6 +2538,7 @@
     "chapter": 5
   },
   {
+    "question_id": 95,
     "question_en": "What is the most efficient method to detect airflow obstructions in ductwork?",
     "question_cn": "检测管道中气流阻塞的最有效方法是什么？",
     "options": [
@@ -2470,6 +2565,7 @@
     "chapter": 5
   },
   {
+    "question_id": 96,
     "question_en": "What is a common reason for refrigerant overcharge in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂过量充注的常见原因是什么？",
     "options": [
@@ -2496,6 +2592,7 @@
     "chapter": 5
   },
   {
+    "question_id": 97,
     "question_en": "How does an ECM motor improve HVAC system efficiency?",
     "question_cn": "电机如何提高暖通空调系统效率？",
     "options": [
@@ -2522,6 +2619,7 @@
     "chapter": 5
   },
   {
+    "question_id": 98,
     "question_en": "What is the primary role of an HVAC system’s air handler?",
     "question_cn": "暖通空调系统空气处理机的主要作用是什么？",
     "options": [
@@ -2548,6 +2646,7 @@
     "chapter": 5
   },
   {
+    "question_id": 99,
     "question_en": "What is the purpose of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的作用是什么？",
     "options": [
@@ -2574,6 +2673,7 @@
     "chapter": 5
   },
   {
+    "question_id": 100,
     "question_en": "Which of the following is a sign of duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏的迹象是什么？",
     "options": [
@@ -2600,6 +2700,7 @@
     "chapter": 5
   },
   {
+    "question_id": 101,
     "question_en": "What is the primary purpose of an air filter in an HVAC system?",
     "question_cn": "暖通空调系统中空气过滤器的主要用途是什么？",
     "options": [
@@ -2626,6 +2727,7 @@
     "chapter": 6
   },
   {
+    "question_id": 102,
     "question_en": "What is the most common cause of uneven cooling in an HVAC system?",
     "question_cn": "暖通空调系统中制冷不均的最常见原因是什么？",
     "options": [
@@ -2652,6 +2754,7 @@
     "chapter": 6
   },
   {
+    "question_id": 103,
     "question_en": "What type of HVAC system uses a liquid refrigerant directly for cooling in the evaporator?",
     "question_cn": "哪种暖通空调系统直接在蒸发器中使用液态制冷剂进行冷却？",
     "options": [
@@ -2678,6 +2781,7 @@
     "chapter": 6
   },
   {
+    "question_id": 104,
     "question_en": "What is the primary advantage of using a programmable thermostat in an HVAC system?",
     "question_cn": "在暖通空调系统中使用可编程恒温器的主要优势是什么？",
     "options": [
@@ -2704,6 +2808,7 @@
     "chapter": 6
   },
   {
+    "question_id": 105,
     "question_en": "What is the role of a suction accumulator in a heat pump?",
     "question_cn": "热泵中吸气蓄液器的作用是什么？",
     "options": [
@@ -2730,6 +2835,7 @@
     "chapter": 6
   },
   {
+    "question_id": 106,
     "question_en": "What is the purpose of a blower motor in an HVAC system?",
     "question_cn": "暖通空调系统中鼓风机电机的作用是什么？",
     "options": [
@@ -2756,6 +2862,7 @@
     "chapter": 6
   },
   {
+    "question_id": 107,
     "question_en": "Which of the following is a benefit of sealing ductwork in an HVAC system?",
     "question_cn": "密封暖通空调系统管道的好处是什么？",
     "options": [
@@ -2782,6 +2889,7 @@
     "chapter": 6
   },
   {
+    "question_id": 108,
     "question_en": "What is the function of a humidistat in an HVAC system?",
     "question_cn": "暖通空调系统中湿度控制器的功能是什么？",
     "options": [
@@ -2808,6 +2916,7 @@
     "chapter": 6
   },
   {
+    "question_id": 109,
     "question_en": "What is a common sign of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的常见迹象是什么？",
     "options": [
@@ -2834,6 +2943,7 @@
     "chapter": 6
   },
   {
+    "question_id": 110,
     "question_en": "What is the recommended distance between an outdoor HVAC unit and obstructions such as walls or plants?",
     "question_cn": "室外暖通空调设备与墙壁或植物等障碍物之间的推荐距离是多少？",
     "options": [
@@ -2860,6 +2970,7 @@
     "chapter": 6
   },
   {
+    "question_id": 111,
     "question_en": "What is the primary function of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的主要功能是什么？",
     "options": [
@@ -2886,6 +2997,7 @@
     "chapter": 6
   },
   {
+    "question_id": 112,
     "question_en": "What is the most common type of HVAC system used in residential applications?",
     "question_cn": "住宅应用中最常见的暖通空调系统类型是什么？",
     "options": [
@@ -2912,6 +3024,7 @@
     "chapter": 6
   },
   {
+    "question_id": 113,
     "question_en": "How often should the refrigerant levels in an HVAC system be checked?",
     "question_cn": "暖通空调系统中的制冷剂水平应多久检查一次？",
     "options": [
@@ -2938,6 +3051,7 @@
     "chapter": 6
   },
   {
+    "question_id": 114,
     "question_en": "What is the purpose of a duct booster fan in an HVAC system?",
     "question_cn": "暖通空调系统中管道助推风扇的作用是什么？",
     "options": [
@@ -2964,6 +3078,7 @@
     "chapter": 6
   },
   {
+    "question_id": 115,
     "question_en": "What is the role of a plenum in an HVAC ductwork system?",
     "question_cn": "暖通空调管道系统中静压箱的作用是什么？",
     "options": [
@@ -2990,6 +3105,7 @@
     "chapter": 6
   },
   {
+    "question_id": 116,
     "question_en": "What is the recommended slope for horizontal refrigerant lines in an HVAC system?",
     "question_cn": "暖通空调系统中水平制冷剂管道的推荐坡度是多少？",
     "options": [
@@ -3016,6 +3132,7 @@
     "chapter": 6
   },
   {
+    "question_id": 117,
     "question_en": "What is the function of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的功能是什么？",
     "options": [
@@ -3042,6 +3159,7 @@
     "chapter": 6
   },
   {
+    "question_id": 118,
     "question_en": "Which of the following is a common sign of a dirty condenser coil in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝器线圈脏污的常见迹象是什么？",
     "options": [
@@ -3068,6 +3186,7 @@
     "chapter": 6
   },
   {
+    "question_id": 119,
     "question_en": "What is the purpose of insulation on refrigerant lines in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂管道绝缘的作用是什么？",
     "options": [
@@ -3094,6 +3213,7 @@
     "chapter": 6
   },
   {
+    "question_id": 120,
     "question_en": "What is a potential consequence of an oversized HVAC system?",
     "question_cn": "暖通空调系统过大的潜在后果是什么？",
     "options": [
@@ -3120,6 +3240,7 @@
     "chapter": 6
   },
   {
+    "question_id": 121,
     "question_en": "What is the purpose of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的作用是什么？",
     "options": [
@@ -3146,6 +3267,7 @@
     "chapter": 7
   },
   {
+    "question_id": 122,
     "question_en": "How does a clogged air filter affect an HVAC system?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调系统？",
     "options": [
@@ -3172,6 +3294,7 @@
     "chapter": 7
   },
   {
+    "question_id": 123,
     "question_en": "What is the primary function of a condenser coil in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝器线圈的主要功能是什么？",
     "options": [
@@ -3198,6 +3321,7 @@
     "chapter": 7
   },
   {
+    "question_id": 124,
     "question_en": "What is the purpose of a blower motor capacitor in an HVAC system?",
     "question_cn": "暖通空调系统中鼓风机电机电容器的作用是什么？",
     "options": [
@@ -3224,6 +3348,7 @@
     "chapter": 7
   },
   {
+    "question_id": 125,
     "question_en": "What is a potential cause of high refrigerant pressure in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂压力过高的潜在原因是什么？",
     "options": [
@@ -3250,6 +3375,7 @@
     "chapter": 7
   },
   {
+    "question_id": 126,
     "question_en": "What is the function of an evaporator coil in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈的功能是什么？",
     "options": [
@@ -3276,6 +3402,7 @@
     "chapter": 7
   },
   {
+    "question_id": 127,
     "question_en": "How does low refrigerant levels affect an HVAC system?",
     "question_cn": "制冷剂水平低如何影响暖通空调系统？",
     "options": [
@@ -3302,6 +3429,7 @@
     "chapter": 7
   },
   {
+    "question_id": 128,
     "question_en": "What is the purpose of an HVAC system’s drain pan?",
     "question_cn": "暖通空调系统排水盘的作用是什么？",
     "options": [
@@ -3328,6 +3456,7 @@
     "chapter": 7
   },
   {
+    "question_id": 129,
     "question_en": "What is a common reason for uneven airflow in an HVAC system?",
     "question_cn": "暖通空调系统中气流不均的常见原因是什么？",
     "options": [
@@ -3354,6 +3483,7 @@
     "chapter": 7
   },
   {
+    "question_id": 130,
     "question_en": "How often should HVAC air filters be replaced?",
     "question_cn": "暖通空调空气过滤器应多久更换一次？",
     "options": [
@@ -3380,6 +3510,7 @@
     "chapter": 7
   },
   {
+    "question_id": 131,
     "question_en": "What is the function of a thermal overload protector in an HVAC motor?",
     "question_cn": "暖通空调电机中热过载保护器的作用是什么？",
     "options": [
@@ -3406,6 +3537,7 @@
     "chapter": 7
   },
   {
+    "question_id": 132,
     "question_en": "What is the purpose of a zoning damper in an HVAC system?",
     "question_cn": "暖通空调系统中分区阻尼器的作用是什么？",
     "options": [
@@ -3432,6 +3564,7 @@
     "chapter": 7
   },
   {
+    "question_id": 133,
     "question_en": "What is a common symptom of a failing HVAC blower motor?",
     "question_cn": "暖通空调鼓风机电机故障的常见症状是什么？",
     "options": [
@@ -3458,6 +3591,7 @@
     "chapter": 7
   },
   {
+    "question_id": 134,
     "question_en": "What is the purpose of an air balancing report in HVAC maintenance?",
     "question_cn": "暖通空调维护中空气平衡报告的作用是什么？",
     "options": [
@@ -3484,6 +3618,7 @@
     "chapter": 7
   },
   {
+    "question_id": 135,
     "question_en": "Which of the following is a key indicator of low refrigerant levels in a heat pump?",
     "question_cn": "以下哪项是热泵制冷剂水平低的关键指标？",
     "options": [
@@ -3510,6 +3645,7 @@
     "chapter": 7
   },
   {
+    "question_id": 136,
     "question_en": "What is the function of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -3536,6 +3672,7 @@
     "chapter": 7
   },
   {
+    "question_id": 137,
     "question_en": "What is the primary cause of high static pressure in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中静压过高的主要原因是什么？",
     "options": [
@@ -3562,6 +3699,7 @@
     "chapter": 7
   },
   {
+    "question_id": 138,
     "question_en": "How can duct leakage in an HVAC system be detected?",
     "question_cn": "如何检测暖通空调系统中的管道泄漏？",
     "options": [
@@ -3588,6 +3726,7 @@
     "chapter": 7
   },
   {
+    "question_id": 139,
     "question_en": "What is the purpose of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -3614,6 +3753,7 @@
     "chapter": 7
   },
   {
+    "question_id": 140,
     "question_en": "What is the role of insulation on HVAC ductwork?",
     "question_cn": "暖通空调管道上的绝缘层的作用是什么？",
     "options": [
@@ -3640,6 +3780,7 @@
     "chapter": 7
   },
   {
+    "question_id": 141,
     "question_en": "What is the primary function of a heat exchanger in an HVAC system?",
     "question_cn": "暖通空调系统中换热器的主要功能是什么？",
     "options": [
@@ -3666,6 +3807,7 @@
     "chapter": 8
   },
   {
+    "question_id": 142,
     "question_en": "What is the recommended minimum clearance for HVAC outdoor units to ensure proper airflow?",
     "question_cn": "为确保适当气流，暖通空调室外设备的推荐最小净空是多少？",
     "options": [
@@ -3692,6 +3834,7 @@
     "chapter": 8
   },
   {
+    "question_id": 143,
     "question_en": "What is a common cause of uneven cooling in a multi-zone HVAC system?",
     "question_cn": "多区域暖通空调系统中冷却不均的常见原因是什么？",
     "options": [
@@ -3718,6 +3861,7 @@
     "chapter": 8
   },
   {
+    "question_id": 144,
     "question_en": "What is the primary purpose of an HVAC system’s condensate trap?",
     "question_cn": "暖通空调系统冷凝水存水弯的主要用途是什么？",
     "options": [
@@ -3744,6 +3888,7 @@
     "chapter": 8
   },
   {
+    "question_id": 145,
     "question_en": "What is the function of a low-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中低压开关的功能是什么？",
     "options": [
@@ -3770,6 +3915,7 @@
     "chapter": 8
   },
   {
+    "question_id": 146,
     "question_en": "What is a potential consequence of undersized ductwork in an HVAC system?",
     "question_cn": "暖通空调系统中管道尺寸过小的潜在后果是什么？",
     "options": [
@@ -3796,6 +3942,7 @@
     "chapter": 8
   },
   {
+    "question_id": 147,
     "question_en": "How does a variable-speed motor benefit an HVAC system?",
     "question_cn": "变速电机如何使暖通空调系统受益？",
     "options": [
@@ -3822,6 +3969,7 @@
     "chapter": 8
   },
   {
+    "question_id": 148,
     "question_en": "What is the purpose of a suction line in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管的作用是什么？",
     "options": [
@@ -3848,6 +3996,7 @@
     "chapter": 8
   },
   {
+    "question_id": 149,
     "question_en": "What is the most common symptom of a failing HVAC thermostat?",
     "question_cn": "暖通空调恒温器故障的最常见症状是什么？",
     "options": [
@@ -3874,6 +4023,7 @@
     "chapter": 8
   },
   {
+    "question_id": 150,
     "question_en": "What is the purpose of a refrigerant recovery machine?",
     "question_cn": "制冷剂回收机的作用是什么？",
     "options": [
@@ -3900,6 +4050,7 @@
     "chapter": 8
   },
   {
+    "question_id": 151,
     "question_en": "What is the function of a high-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中高压开关的功能是什么？",
     "options": [
@@ -3926,6 +4077,7 @@
     "chapter": 8
   },
   {
+    "question_id": 152,
     "question_en": "How does duct insulation improve HVAC system performance?",
     "question_cn": "管道绝缘如何提高暖通空调系统性能？",
     "options": [
@@ -3952,6 +4104,7 @@
     "chapter": 8
   },
   {
+    "question_id": 153,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的作用是什么？",
     "options": [
@@ -3978,6 +4131,7 @@
     "chapter": 8
   },
   {
+    "question_id": 154,
     "question_en": "What is the most common cause of restricted airflow in HVAC systems?",
     "question_cn": "暖通空调系统中气流受限的最常见原因是什么？",
     "options": [
@@ -4004,6 +4158,7 @@
     "chapter": 8
   },
   {
+    "question_id": 155,
     "question_en": "What is a potential consequence of an improperly sized HVAC system?",
     "question_cn": "暖通空调系统尺寸不当可能导致的后果是什么？",
     "options": [
@@ -4030,6 +4185,7 @@
     "chapter": 8
   },
   {
+    "question_id": 156,
     "question_en": "What is the primary role of a refrigerant in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂的主要作用是什么？",
     "options": [
@@ -4056,6 +4212,7 @@
     "chapter": 8
   },
   {
+    "question_id": 157,
     "question_en": "How is refrigerant superheat typically measured?",
     "question_cn": "通常如何测量制冷剂过热？",
     "options": [
@@ -4082,6 +4239,7 @@
     "chapter": 8
   },
   {
+    "question_id": 158,
     "question_en": "What is a common symptom of a refrigerant undercharge in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂充注不足的常见症状是什么？",
     "options": [
@@ -4108,6 +4266,7 @@
     "chapter": 8
   },
   {
+    "question_id": 159,
     "question_en": "What is the purpose of a plenum in HVAC ductwork?",
     "question_cn": "暖通空调管道中静压箱的作用是什么？",
     "options": [
@@ -4134,6 +4293,7 @@
     "chapter": 8
   },
   {
+    "question_id": 160,
     "question_en": "What is a common indicator of duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏的常见指示是什么？",
     "options": [
@@ -4160,6 +4320,7 @@
     "chapter": 8
   },
   {
+    "question_id": 161,
     "question_en": "What is the primary purpose of a blower motor in an HVAC system?",
     "question_cn": "暖通空调系统中鼓风机电机的主要作用是什么？",
     "options": [
@@ -4186,6 +4347,7 @@
     "chapter": 9
   },
   {
+    "question_id": 162,
     "question_en": "How does a clogged evaporator coil affect HVAC performance?",
     "question_cn": "堵塞的蒸发器线圈如何影响暖通空调性能？",
     "options": [
@@ -4212,6 +4374,7 @@
     "chapter": 9
   },
   {
+    "question_id": 163,
     "question_en": "What is a common cause of frozen evaporator coils in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈结冰的常见原因是什么？",
     "options": [
@@ -4238,6 +4401,7 @@
     "chapter": 9
   },
   {
+    "question_id": 164,
     "question_en": "What is the function of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的功能是什么？",
     "options": [
@@ -4264,6 +4428,7 @@
     "chapter": 9
   },
   {
+    "question_id": 165,
     "question_en": "What is a potential consequence of oversized HVAC equipment?",
     "question_cn": "暖通空调设备过大的潜在后果是什么？",
     "options": [
@@ -4290,6 +4455,7 @@
     "chapter": 9
   },
   {
+    "question_id": 166,
     "question_en": "How is system airflow typically measured in an HVAC system?",
     "question_cn": "在暖通空调系统中通常如何测量系统气流？",
     "options": [
@@ -4316,6 +4482,7 @@
     "chapter": 9
   },
   {
+    "question_id": 167,
     "question_en": "What is the purpose of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -4342,6 +4509,7 @@
     "chapter": 9
   },
   {
+    "question_id": 168,
     "question_en": "What is the primary function of a filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中过滤干燥器的主要功能是什么？",
     "options": [
@@ -4368,6 +4536,7 @@
     "chapter": 9
   },
   {
+    "question_id": 169,
     "question_en": "What is a symptom of an HVAC system with high static pressure?",
     "question_cn": "暖通空调系统静压过高的症状是什么？",
     "options": [
@@ -4394,6 +4563,7 @@
     "chapter": 9
   },
   {
+    "question_id": 170,
     "question_en": "What is the function of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的功能是什么？",
     "options": [
@@ -4420,6 +4590,7 @@
     "chapter": 9
   },
   {
+    "question_id": 171,
     "question_en": "What is the primary role of an HVAC thermostat?",
     "question_cn": "暖通空调系统中恒温器的主要作用是什么？",
     "options": [
@@ -4446,6 +4617,7 @@
     "chapter": 9
   },
   {
+    "question_id": 172,
     "question_en": "What is the purpose of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的作用是什么？",
     "options": [
@@ -4472,6 +4644,7 @@
     "chapter": 9
   },
   {
+    "question_id": 173,
     "question_en": "How does a dirty condenser coil impact an HVAC system?",
     "question_cn": "脏污的冷凝器线圈如何影响暖通空调系统？",
     "options": [
@@ -4498,6 +4671,7 @@
     "chapter": 9
   },
   {
+    "question_id": 174,
     "question_en": "What is the function of a condensate drain in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水排水管的功能是什么？",
     "options": [
@@ -4524,6 +4698,7 @@
     "chapter": 9
   },
   {
+    "question_id": 175,
     "question_en": "What is the purpose of a pressure gauge in HVAC maintenance?",
     "question_cn": "暖通空调维护中压力表的作用是什么？",
     "options": [
@@ -4550,6 +4725,7 @@
     "chapter": 9
   },
   {
+    "question_id": 176,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "暖通空调系统尺寸过小的常见症状是什么？",
     "options": [
@@ -4576,6 +4752,7 @@
     "chapter": 9
   },
   {
+    "question_id": 177,
     "question_en": "How does a zoning system improve HVAC efficiency?",
     "question_cn": "分区系统如何提高暖通空调效率？",
     "options": [
@@ -4602,6 +4779,7 @@
     "chapter": 9
   },
   {
+    "question_id": 178,
     "question_en": "What is the function of a crankcase heater in an HVAC system?",
     "question_cn": "暖通空调系统中曲轴箱加热器的功能是什么？",
     "options": [
@@ -4628,6 +4806,7 @@
     "chapter": 9
   },
   {
+    "question_id": 179,
     "question_en": "What is the purpose of a supply plenum in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中供气静压箱的作用是什么？",
     "options": [
@@ -4654,6 +4833,7 @@
     "chapter": 9
   },
   {
+    "question_id": 180,
     "question_en": "What is the recommended maximum voltage drop for HVAC systems to ensure efficiency?",
     "question_cn": "为确保效率，暖通空调系统的推荐最大电压降是多少？",
     "options": [
@@ -4680,6 +4860,7 @@
     "chapter": 9
   },
   {
+    "question_id": 181,
     "question_en": "What is the primary purpose of a suction line accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管蓄液器的主要作用是什么？",
     "options": [
@@ -4706,6 +4887,7 @@
     "chapter": 10
   },
   {
+    "question_id": 182,
     "question_en": "What is the function of a high-pressure cutoff switch in an HVAC system?",
     "question_cn": "暖通空调系统中高压切断开关的功能是什么？",
     "options": [
@@ -4732,6 +4914,7 @@
     "chapter": 10
   },
   {
+    "question_id": 183,
     "question_en": "How often should HVAC system refrigerant levels be checked for optimal performance?",
     "question_cn": "为确保最佳性能，暖通空调系统中的制冷剂水平应多久检查一次？",
     "options": [
@@ -4758,6 +4941,7 @@
     "chapter": 10
   },
   {
+    "question_id": 184,
     "question_en": "What is a common symptom of duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏的常见症状是什么？",
     "options": [
@@ -4784,6 +4968,7 @@
     "chapter": 10
   },
   {
+    "question_id": 185,
     "question_en": "What is the recommended location for installing a thermostat in a residential HVAC system?",
     "question_cn": "在住宅暖通空调系统中，恒温器的推荐安装位置是哪里？",
     "options": [
@@ -4810,6 +4995,7 @@
     "chapter": 10
   },
   {
+    "question_id": 186,
     "question_en": "What is the function of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的功能是什么？",
     "options": [
@@ -4836,6 +5022,7 @@
     "chapter": 10
   },
   {
+    "question_id": 187,
     "question_en": "What is the purpose of a manifold gauge set in HVAC maintenance?",
     "question_cn": "暖通空调维护中集管表组的作用是什么？",
     "options": [
@@ -4862,6 +5049,7 @@
     "chapter": 10
   },
   {
+    "question_id": 188,
     "question_en": "What is a potential issue caused by low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平过低可能引起什么问题？",
     "options": [
@@ -4888,6 +5076,7 @@
     "chapter": 10
   },
   {
+    "question_id": 189,
     "question_en": "How often should HVAC air filters be replaced to maintain system efficiency?",
     "question_cn": "为保持系统效率，暖通空调空气过滤器应多久更换一次？",
     "options": [
@@ -4914,6 +5103,7 @@
     "chapter": 10
   },
   {
+    "question_id": 190,
     "question_en": "What is the purpose of a humidistat in an HVAC system?",
     "question_cn": "暖通空调系统中湿度控制器的作用是什么？",
     "options": [
@@ -4940,6 +5130,7 @@
     "chapter": 10
   },
   {
+    "question_id": 191,
     "question_en": "What is the function of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -4966,6 +5157,7 @@
     "chapter": 10
   },
   {
+    "question_id": 192,
     "question_en": "What is a common cause of high refrigerant pressure in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂压力过高的常见原因是什么？",
     "options": [
@@ -4992,6 +5184,7 @@
     "chapter": 10
   },
   {
+    "question_id": 193,
     "question_en": "What is the purpose of a low-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中低压开关的作用是什么？",
     "options": [
@@ -5018,6 +5211,7 @@
     "chapter": 10
   },
   {
+    "question_id": 194,
     "question_en": "How does an undersized HVAC system affect energy efficiency?",
     "question_cn": "尺寸过小的暖通空调系统如何影响能源效率？",
     "options": [
@@ -5044,6 +5238,7 @@
     "chapter": 10
   },
   {
+    "question_id": 195,
     "question_en": "What is a key benefit of using a variable-speed blower motor in an HVAC system?",
     "question_cn": "在暖通空调系统中使用变速鼓风机电机的关键好处是什么？",
     "options": [
@@ -5070,6 +5265,7 @@
     "chapter": 10
   },
   {
+    "question_id": 196,
     "question_en": "What is the role of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -5096,6 +5292,7 @@
     "chapter": 10
   },
   {
+    "question_id": 197,
     "question_en": "What is a potential problem caused by duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏可能引起的潜在问题是什么？",
     "options": [
@@ -5122,6 +5319,7 @@
     "chapter": 10
   },
   {
+    "question_id": 198,
     "question_en": "How often should refrigerant lines be inspected for leaks?",
     "question_cn": "制冷剂管道应多久检查一次是否有泄漏？",
     "options": [
@@ -5148,6 +5346,7 @@
     "chapter": 10
   },
   {
+    "question_id": 199,
     "question_en": "What is the purpose of a balancing damper in HVAC ductwork?",
     "question_cn": "暖通空调管道中平衡阻尼器的作用是什么？",
     "options": [
@@ -5174,6 +5373,7 @@
     "chapter": 10
   },
   {
+    "question_id": 200,
     "question_en": "What is the function of an HVAC system’s evaporator coil?",
     "question_cn": "暖通空调系统中蒸发器线圈的功能是什么？",
     "options": [
@@ -5200,6 +5400,7 @@
     "chapter": 10
   },
   {
+    "question_id": 201,
     "question_en": "What is the primary function of a condenser coil in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝器线圈的主要功能是什么？",
     "options": [
@@ -5226,6 +5427,7 @@
     "chapter": 11
   },
   {
+    "question_id": 202,
     "question_en": "What is a common symptom of an overcharged HVAC system?",
     "question_cn": "暖通空调系统充注过多的常见症状是什么？",
     "options": [
@@ -5252,6 +5454,7 @@
     "chapter": 11
   },
   {
+    "question_id": 203,
     "question_en": "How often should HVAC ductwork be inspected for leaks or damage?",
     "question_cn": "暖通空调管道应多久检查一次是否有泄漏或损坏？",
     "options": [
@@ -5278,6 +5481,7 @@
     "chapter": 11
   },
   {
+    "question_id": 204,
     "question_en": "What is the purpose of a heat exchanger in a furnace?",
     "question_cn": "炉子中换热器的作用是什么？",
     "options": [
@@ -5304,6 +5508,7 @@
     "chapter": 11
   },
   {
+    "question_id": 205,
     "question_en": "What is the function of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的功能是什么？",
     "options": [
@@ -5330,6 +5535,7 @@
     "chapter": 11
   },
   {
+    "question_id": 206,
     "question_en": "What is a common cause of short cycling in HVAC systems?",
     "question_cn": "暖通空调系统短周期运行的常见原因是什么？",
     "options": [
@@ -5356,6 +5562,7 @@
     "chapter": 11
   },
   {
+    "question_id": 207,
     "question_en": "How does a zoning system enhance HVAC efficiency?",
     "question_cn": "分区系统如何提高暖通空调效率？",
     "options": [
@@ -5382,6 +5589,7 @@
     "chapter": 11
   },
   {
+    "question_id": 208,
     "question_en": "What is the primary role of a refrigerant in a heat pump?",
     "question_cn": "热泵中制冷剂的主要作用是什么？",
     "options": [
@@ -5408,6 +5616,7 @@
     "chapter": 11
   },
   {
+    "question_id": 209,
     "question_en": "What is the purpose of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的作用是什么？",
     "options": [
@@ -5434,6 +5643,7 @@
     "chapter": 11
   },
   {
+    "question_id": 210,
     "question_en": "How is airflow typically balanced in an HVAC duct system?",
     "question_cn": "在暖通空调管道系统中通常如何平衡气流？",
     "options": [
@@ -5460,6 +5670,7 @@
     "chapter": 11
   },
   {
+    "question_id": 211,
     "question_en": "What is the function of a thermal overload switch in an HVAC motor?",
     "question_cn": "暖通空调电机中热过载开关的功能是什么？",
     "options": [
@@ -5486,6 +5697,7 @@
     "chapter": 11
   },
   {
+    "question_id": 212,
     "question_en": "What is the purpose of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -5512,6 +5724,7 @@
     "chapter": 11
   },
   {
+    "question_id": 213,
     "question_en": "What is a common symptom of an HVAC system with high static pressure?",
     "question_cn": "暖通空调系统静压过高的常见症状是什么？",
     "options": [
@@ -5538,6 +5751,7 @@
     "chapter": 11
   },
   {
+    "question_id": 214,
     "question_en": "How often should a heat pump’s reversing valve be inspected?",
     "question_cn": "热泵的换向阀应多久检查一次？",
     "options": [
@@ -5564,6 +5778,7 @@
     "chapter": 11
   },
   {
+    "question_id": 215,
     "question_en": "What is the primary purpose of a return air duct in an HVAC system?",
     "question_cn": "暖通空调系统中回风管的主要作用是什么？",
     "options": [
@@ -5590,6 +5805,7 @@
     "chapter": 11
   },
   {
+    "question_id": 216,
     "question_en": "What is the function of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的功能是什么？",
     "options": [
@@ -5616,6 +5832,7 @@
     "chapter": 11
   },
   {
+    "question_id": 217,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in a refrigeration cycle?",
     "question_cn": "制冷循环中热膨胀阀  的作用是什么？",
     "options": [
@@ -5642,6 +5859,7 @@
     "chapter": 11
   },
   {
+    "question_id": 218,
     "question_en": "How does a clogged air filter affect HVAC system performance?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调系统性能？",
     "options": [
@@ -5668,6 +5886,7 @@
     "chapter": 11
   },
   {
+    "question_id": 219,
     "question_en": "What is the role of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的作用是什么？",
     "options": [
@@ -5694,6 +5913,7 @@
     "chapter": 11
   },
   {
+    "question_id": 220,
     "question_en": "What is a potential cause of frozen evaporator coils in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈结冰的潜在原因是什么？",
     "options": [
@@ -5720,6 +5940,7 @@
     "chapter": 11
   },
   {
+    "question_id": 221,
     "question_en": "What is the purpose of a heat pump's reversing valve?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -5746,6 +5967,7 @@
     "chapter": 12
   },
   {
+    "question_id": 222,
     "question_en": "What is the primary cause of high refrigerant pressure in a condenser?",
     "question_cn": "冷凝器中制冷剂压力过高的主要原因是什么？",
     "options": [
@@ -5772,6 +5994,7 @@
     "chapter": 12
   },
   {
+    "question_id": 223,
     "question_en": "How does undersized ductwork affect an HVAC system?",
     "question_cn": "尺寸过小的管道如何影响暖通空调系统？",
     "options": [
@@ -5798,6 +6021,7 @@
     "chapter": 12
   },
   {
+    "question_id": 224,
     "question_en": "What is the primary role of an evaporator coil in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈的主要作用是什么？",
     "options": [
@@ -5824,6 +6048,7 @@
     "chapter": 12
   },
   {
+    "question_id": 225,
     "question_en": "What is the function of a filter drier in the refrigerant line?",
     "question_cn": "制冷剂管路中过滤干燥器的功能是什么？",
     "options": [
@@ -5850,6 +6075,7 @@
     "chapter": 12
   },
   {
+    "question_id": 226,
     "question_en": "What is a potential consequence of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统可能导致什么后果？",
     "options": [
@@ -5876,6 +6102,7 @@
     "chapter": 12
   },
   {
+    "question_id": 227,
     "question_en": "How often should HVAC condensate drains be inspected?",
     "question_cn": "暖通空调冷凝水排水管应多久检查一次？",
     "options": [
@@ -5902,6 +6129,7 @@
     "chapter": 12
   },
   {
+    "question_id": 228,
     "question_en": "What is the purpose of a humidistat in an HVAC system?",
     "question_cn": "暖通空调系统中湿度控制器的作用是什么？",
     "options": [
@@ -5928,6 +6156,7 @@
     "chapter": 12
   },
   {
+    "question_id": 229,
     "question_en": "What is the function of a supply plenum in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中供气静压箱的功能是什么？",
     "options": [
@@ -5954,6 +6183,7 @@
     "chapter": 12
   },
   {
+    "question_id": 230,
     "question_en": "What is the recommended slope for horizontal refrigerant lines to ensure proper oil return?",
     "question_cn": "为确保油返回，水平制冷剂管路的推荐坡度是多少？",
     "options": [
@@ -5980,6 +6210,7 @@
     "chapter": 12
   },
   {
+    "question_id": 231,
     "question_en": "What is the purpose of a crankcase heater in a heat pump system?",
     "question_cn": "热泵系统中曲轴箱加热器的作用是什么？",
     "options": [
@@ -6006,6 +6237,7 @@
     "chapter": 12
   },
   {
+    "question_id": 232,
     "question_en": "What is a common symptom of an HVAC system with low refrigerant levels?",
     "question_cn": "制冷剂水平过低的暖通空调系统常见症状是什么？",
     "options": [
@@ -6032,6 +6264,7 @@
     "chapter": 12
   },
   {
+    "question_id": 233,
     "question_en": "How often should HVAC air filters typically be replaced?",
     "question_cn": "暖通空调空气过滤器通常应多久更换一次？",
     "options": [
@@ -6058,6 +6291,7 @@
     "chapter": 12
   },
   {
+    "question_id": 234,
     "question_en": "What is the function of a reversing valve in an HVAC system?",
     "question_cn": "暖通空调系统中换向阀的功能是什么？",
     "options": [
@@ -6084,6 +6318,7 @@
     "chapter": 12
   },
   {
+    "question_id": 235,
     "question_en": "What is the primary purpose of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的主要作用是什么？",
     "options": [
@@ -6110,6 +6345,7 @@
     "chapter": 12
   },
   {
+    "question_id": 236,
     "question_en": "What is the purpose of a bypass damper in a ducted zoning system?",
     "question_cn": "管道分区系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -6136,6 +6372,7 @@
     "chapter": 12
   },
   {
+    "question_id": 237,
     "question_en": "How does duct leakage impact HVAC performance?",
     "question_cn": "管道泄漏如何影响暖通空调性能？",
     "options": [
@@ -6162,6 +6399,7 @@
     "chapter": 12
   },
   {
+    "question_id": 238,
     "question_en": "What is a common indicator of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见指标是什么？",
     "options": [
@@ -6188,6 +6426,7 @@
     "chapter": 12
   },
   {
+    "question_id": 239,
     "question_en": "What is the recommended minimum clearance for outdoor HVAC units?",
     "question_cn": "室外暖通空调设备的推荐最小净空是多少？",
     "options": [
@@ -6214,6 +6453,7 @@
     "chapter": 12
   },
   {
+    "question_id": 240,
     "question_en": "What is the role of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的作用是什么？",
     "options": [
@@ -6240,6 +6480,7 @@
     "chapter": 12
   },
   {
+    "question_id": 241,
     "question_en": "What is the primary function of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的主要作用是什么？",
     "options": [
@@ -6266,6 +6507,7 @@
     "chapter": 13
   },
   {
+    "question_id": 242,
     "question_en": "How does a clogged condenser coil impact HVAC performance?",
     "question_cn": "堵塞的冷凝器线圈如何影响暖通空调性能？",
     "options": [
@@ -6292,6 +6534,7 @@
     "chapter": 13
   },
   {
+    "question_id": 243,
     "question_en": "What is the function of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的作用是什么？",
     "options": [
@@ -6318,6 +6561,7 @@
     "chapter": 13
   },
   {
+    "question_id": 244,
     "question_en": "What is a common cause of uneven airflow in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中气流不均的常见原因是什么？",
     "options": [
@@ -6344,6 +6588,7 @@
     "chapter": 13
   },
   {
+    "question_id": 245,
     "question_en": "How often should the refrigerant levels in an HVAC system be checked?",
     "question_cn": "暖通空调系统中的制冷剂水平应多久检查一次？",
     "options": [
@@ -6370,6 +6615,7 @@
     "chapter": 13
   },
   {
+    "question_id": 246,
     "question_en": "What is the primary purpose of a suction accumulator in a heat pump?",
     "question_cn": "热泵中吸气蓄液器的主要作用是什么？",
     "options": [
@@ -6396,6 +6642,7 @@
     "chapter": 13
   },
   {
+    "question_id": 247,
     "question_en": "What is the function of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的功能是什么？",
     "options": [
@@ -6422,6 +6669,7 @@
     "chapter": 13
   },
   {
+    "question_id": 248,
     "question_en": "How does high static pressure affect an HVAC system?",
     "question_cn": "高静压如何影响暖通空调系统？",
     "options": [
@@ -6448,6 +6696,7 @@
     "chapter": 13
   },
   {
+    "question_id": 249,
     "question_en": "What is the role of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的作用是什么？",
     "options": [
@@ -6474,6 +6723,7 @@
     "chapter": 13
   },
   {
+    "question_id": 250,
     "question_en": "What is a common consequence of duct leakage in HVAC systems?",
     "question_cn": "暖通空调系统中管道泄漏的常见后果是什么？",
     "options": [
@@ -6500,6 +6750,7 @@
     "chapter": 13
   },
   {
+    "question_id": 251,
     "question_en": "What is the primary function of an air handler in an HVAC system?",
     "question_cn": "暖通空调系统中空气处理机的主要功能是什么？",
     "options": [
@@ -6526,6 +6777,7 @@
     "chapter": 13
   },
   {
+    "question_id": 252,
     "question_en": "How does a dirty evaporator coil affect an HVAC system?",
     "question_cn": "脏污的蒸发器线圈如何影响暖通空调系统？",
     "options": [
@@ -6552,6 +6804,7 @@
     "chapter": 13
   },
   {
+    "question_id": 253,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in a heat pump system?",
     "question_cn": "热泵系统中热膨胀阀的作用是什么？",
     "options": [
@@ -6578,6 +6831,7 @@
     "chapter": 13
   },
   {
+    "question_id": 254,
     "question_en": "What is a common symptom of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统的常见症状是什么？",
     "options": [
@@ -6604,6 +6858,7 @@
     "chapter": 13
   },
   {
+    "question_id": 255,
     "question_en": "What is the function of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的功能是什么？",
     "options": [
@@ -6630,6 +6885,7 @@
     "chapter": 13
   },
   {
+    "question_id": 256,
     "question_en": "How does duct insulation benefit an HVAC system?",
     "question_cn": "管道绝缘如何使暖通空调系统受益？",
     "options": [
@@ -6656,6 +6912,7 @@
     "chapter": 13
   },
   {
+    "question_id": 257,
     "question_en": "What is the purpose of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的作用是什么？",
     "options": [
@@ -6682,6 +6939,7 @@
     "chapter": 13
   },
   {
+    "question_id": 258,
     "question_en": "What is a potential cause of frozen evaporator coils in an HVAC system?",
     "question_cn": "暖通空调系统中蒸发器线圈结冰的潜在原因是什么？",
     "options": [
@@ -6708,6 +6966,7 @@
     "chapter": 13
   },
   {
+    "question_id": 259,
     "question_en": "What is the function of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的功能是什么？",
     "options": [
@@ -6734,6 +6993,7 @@
     "chapter": 13
   },
   {
+    "question_id": 260,
     "question_en": "What is the primary purpose of a refrigerant recovery machine?",
     "question_cn": "制冷剂回收机的主要作用是什么？",
     "options": [
@@ -6760,6 +7020,7 @@
     "chapter": 13
   },
   {
+    "question_id": 261,
     "question_en": "What is the purpose of a high-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中高压开关的作用是什么？",
     "options": [
@@ -6786,6 +7047,7 @@
     "chapter": 14
   },
   {
+    "question_id": 262,
     "question_en": "What is a common symptom of duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏的常见症状是什么？",
     "options": [
@@ -6812,6 +7074,7 @@
     "chapter": 14
   },
   {
+    "question_id": 263,
     "question_en": "How often should HVAC ductwork be inspected for blockages and leaks?",
     "question_cn": "暖通空调管道应多久检查一次是否有堵塞和泄漏？",
     "options": [
@@ -6838,6 +7101,7 @@
     "chapter": 14
   },
   {
+    "question_id": 264,
     "question_en": "What is the role of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的作用是什么？",
     "options": [
@@ -6864,6 +7128,7 @@
     "chapter": 14
   },
   {
+    "question_id": 265,
     "question_en": "What is the function of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的功能是什么？",
     "options": [
@@ -6890,6 +7155,7 @@
     "chapter": 14
   },
   {
+    "question_id": 266,
     "question_en": "What is a potential consequence of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的潜在后果是什么？",
     "options": [
@@ -6916,6 +7182,7 @@
     "chapter": 14
   },
   {
+    "question_id": 267,
     "question_en": "How does oversized HVAC equipment affect energy efficiency?",
     "question_cn": "过大的暖通空调设备如何影响能源效率？",
     "options": [
@@ -6942,6 +7209,7 @@
     "chapter": 14
   },
   {
+    "question_id": 268,
     "question_en": "What is the purpose of duct insulation in an HVAC system?",
     "question_cn": "暖通空调系统中管道绝缘的作用是什么？",
     "options": [
@@ -6968,6 +7236,7 @@
     "chapter": 14
   },
   {
+    "question_id": 269,
     "question_en": "What is the role of a suction line in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管的作用是什么？",
     "options": [
@@ -6994,6 +7263,7 @@
     "chapter": 14
   },
   {
+    "question_id": 270,
     "question_en": "How is system airflow typically balanced in an HVAC duct system?",
     "question_cn": "在暖通空调管道系统中通常如何平衡气流？",
     "options": [
@@ -7020,6 +7290,7 @@
     "chapter": 14
   },
   {
+    "question_id": 271,
     "question_en": "What is the function of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的功能是什么？",
     "options": [
@@ -7046,6 +7317,7 @@
     "chapter": 14
   },
   {
+    "question_id": 272,
     "question_en": "What is a common indicator of duct leakage in HVAC systems?",
     "question_cn": "暖通空调系统中管道泄漏的常见指标是什么？",
     "options": [
@@ -7072,6 +7344,7 @@
     "chapter": 14
   },
   {
+    "question_id": 273,
     "question_en": "How does oversized HVAC equipment impact comfort levels in a building?",
     "question_cn": "过大的暖通空调设备如何影响建筑的舒适度？",
     "options": [
@@ -7098,6 +7371,7 @@
     "chapter": 14
   },
   {
+    "question_id": 274,
     "question_en": "What is the purpose of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -7124,6 +7398,7 @@
     "chapter": 14
   },
   {
+    "question_id": 275,
     "question_en": "What is the recommended method for detecting duct leakage in an HVAC system?",
     "question_cn": "检测暖通空调系统中管道泄漏的推荐方法是什么？",
     "options": [
@@ -7150,6 +7425,7 @@
     "chapter": 14
   },
   {
+    "question_id": 276,
     "question_en": "What is the function of an economizer in HVAC systems?",
     "question_cn": "暖通空调系统中节能器的功能是什么？",
     "options": [
@@ -7176,6 +7452,7 @@
     "chapter": 14
   },
   {
+    "question_id": 277,
     "question_en": "What is the role of a return air duct in an HVAC system?",
     "question_cn": "暖通空调系统中回风管的作用是什么？",
     "options": [
@@ -7202,6 +7479,7 @@
     "chapter": 14
   },
   {
+    "question_id": 278,
     "question_en": "What is the purpose of a suction accumulator in a heat pump?",
     "question_cn": "热泵中吸气蓄液器的作用是什么？",
     "options": [
@@ -7228,6 +7506,7 @@
     "chapter": 14
   },
   {
+    "question_id": 279,
     "question_en": "How does duct insulation improve HVAC system efficiency?",
     "question_cn": "管道绝缘如何提高暖通空调系统效率？",
     "options": [
@@ -7254,6 +7533,7 @@
     "chapter": 14
   },
   {
+    "question_id": 280,
     "question_en": "What is a common cause of frozen evaporator coils in HVAC systems?",
     "question_cn": "暖通空调系统中蒸发器线圈结冰的常见原因是什么？",
     "options": [
@@ -7280,6 +7560,7 @@
     "chapter": 14
   },
   {
+    "question_id": 281,
     "question_en": "What is the purpose of a liquid line sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中液管视镜的作用是什么？",
     "options": [
@@ -7306,6 +7587,7 @@
     "chapter": 15
   },
   {
+    "question_id": 282,
     "question_en": "How does low refrigerant levels impact an HVAC system?",
     "question_cn": "制冷剂水平低如何影响暖通空调系统？",
     "options": [
@@ -7332,6 +7614,7 @@
     "chapter": 15
   },
   {
+    "question_id": 283,
     "question_en": "What is the primary function of a blower motor in an HVAC system?",
     "question_cn": "暖通空调系统中鼓风机电机的主要功能是什么？",
     "options": [
@@ -7358,6 +7641,7 @@
     "chapter": 15
   },
   {
+    "question_id": 284,
     "question_en": "What is the purpose of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -7384,6 +7668,7 @@
     "chapter": 15
   },
   {
+    "question_id": 285,
     "question_en": "What is a common symptom of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统的常见症状是什么？",
     "options": [
@@ -7410,6 +7695,7 @@
     "chapter": 15
   },
   {
+    "question_id": 286,
     "question_en": "What is the role of a condensate pump in HVAC systems?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -7436,6 +7722,7 @@
     "chapter": 15
   },
   {
+    "question_id": 287,
     "question_en": "How often should HVAC filters be replaced to maintain optimal performance?",
     "question_cn": "为保持最佳性能，暖通空调过滤器应多久更换一次？",
     "options": [
@@ -7462,6 +7749,7 @@
     "chapter": 15
   },
   {
+    "question_id": 288,
     "question_en": "What is the purpose of a balancing damper in an HVAC system?",
     "question_cn": "暖通空调系统中平衡阻尼器的作用是什么？",
     "options": [
@@ -7488,6 +7776,7 @@
     "chapter": 15
   },
   {
+    "question_id": 289,
     "question_en": "How does a dirty air filter impact HVAC system performance?",
     "question_cn": "脏污的空气过滤器如何影响暖通空调系统性能？",
     "options": [
@@ -7514,6 +7803,7 @@
     "chapter": 15
   },
   {
+    "question_id": 290,
     "question_en": "What is the primary purpose of duct insulation in HVAC systems?",
     "question_cn": "暖通空调系统中管道绝缘的主要作用是什么？",
     "options": [
@@ -7540,6 +7830,7 @@
     "chapter": 15
   },
   {
+    "question_id": 291,
     "question_en": "What is the function of a high-pressure cutoff switch in an HVAC system?",
     "question_cn": "暖通空调系统中高压切断开关的功能是什么？",
     "options": [
@@ -7566,6 +7857,7 @@
     "chapter": 15
   },
   {
+    "question_id": 292,
     "question_en": "How does duct leakage affect energy efficiency in an HVAC system?",
     "question_cn": "管道泄漏如何影响暖通空调系统的能源效率？",
     "options": [
@@ -7592,6 +7884,7 @@
     "chapter": 15
   },
   {
+    "question_id": 293,
     "question_en": "What is the recommended clearance around an outdoor HVAC unit to ensure proper airflow?",
     "question_cn": "为确保适当气流，室外暖通空调设备周围的推荐净空是多少？",
     "options": [
@@ -7618,6 +7911,7 @@
     "chapter": 15
   },
   {
+    "question_id": 294,
     "question_en": "What is the primary function of an HVAC system's evaporator coil?",
     "question_cn": "暖通空调系统中蒸发器线圈的主要功能是什么？",
     "options": [
@@ -7644,6 +7938,7 @@
     "chapter": 15
   },
   {
+    "question_id": 295,
     "question_en": "What is the role of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的作用是什么？",
     "options": [
@@ -7670,6 +7965,7 @@
     "chapter": 15
   },
   {
+    "question_id": 296,
     "question_en": "What is a potential problem caused by low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低可能引起什么问题？",
     "options": [
@@ -7696,6 +7992,7 @@
     "chapter": 15
   },
   {
+    "question_id": 297,
     "question_en": "How does a balancing damper improve airflow distribution in an HVAC system?",
     "question_cn": "平衡阻尼器如何改善暖通空调系统中的气流分布？",
     "options": [
@@ -7722,6 +8019,7 @@
     "chapter": 15
   },
   {
+    "question_id": 298,
     "question_en": "What is the function of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的功能是什么？",
     "options": [
@@ -7748,6 +8046,7 @@
     "chapter": 15
   },
   {
+    "question_id": 299,
     "question_en": "What is the purpose of a condensate trap in HVAC systems?",
     "question_cn": "暖通空调系统中冷凝水存水弯的作用是什么？",
     "options": [
@@ -7774,6 +8073,7 @@
     "chapter": 15
   },
   {
+    "question_id": 300,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见症状是什么？",
     "options": [
@@ -7800,6 +8100,7 @@
     "chapter": 15
   },
   {
+    "question_id": 301,
     "question_en": "What is the purpose of a suction accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气蓄液器的作用是什么？",
     "options": [
@@ -7826,6 +8127,7 @@
     "chapter": 16
   },
   {
+    "question_id": 302,
     "question_en": "How does duct insulation improve HVAC energy efficiency?",
     "question_cn": "管道绝缘如何提高暖通空调的能源效率？",
     "options": [
@@ -7852,6 +8154,7 @@
     "chapter": 16
   },
   {
+    "question_id": 303,
     "question_en": "What is a common cause of high static pressure in an HVAC system?",
     "question_cn": "暖通空调系统中静压过高的常见原因是什么？",
     "options": [
@@ -7878,6 +8181,7 @@
     "chapter": 16
   },
   {
+    "question_id": 304,
     "question_en": "How does a variable-speed blower motor benefit an HVAC system?",
     "question_cn": "变速鼓风机电机如何使暖通空调系统受益？",
     "options": [
@@ -7904,6 +8208,7 @@
     "chapter": 16
   },
   {
+    "question_id": 305,
     "question_en": "What is the function of a thermal expansion valve in a refrigeration cycle?",
     "question_cn": "制冷循环中热膨胀阀的功能是什么？",
     "options": [
@@ -7930,6 +8235,7 @@
     "chapter": 16
   },
   {
+    "question_id": 306,
     "question_en": "What is the primary purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的主要作用是什么？",
     "options": [
@@ -7956,6 +8262,7 @@
     "chapter": 16
   },
   {
+    "question_id": 307,
     "question_en": "How does an oversized HVAC system impact indoor humidity levels?",
     "question_cn": "过大的暖通空调系统如何影响室内湿度？",
     "options": [
@@ -7982,6 +8289,7 @@
     "chapter": 16
   },
   {
+    "question_id": 308,
     "question_en": "What is the purpose of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -8008,6 +8316,7 @@
     "chapter": 16
   },
   {
+    "question_id": 309,
     "question_en": "How often should HVAC filters be replaced for optimal performance?",
     "question_cn": "为达到最佳性能，暖通空调过滤器应多久更换一次？",
     "options": [
@@ -8034,6 +8343,7 @@
     "chapter": 16
   },
   {
+    "question_id": 310,
     "question_en": "What is a common consequence of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的常见后果是什么？",
     "options": [
@@ -8060,6 +8370,7 @@
     "chapter": 16
   },
   {
+    "question_id": 311,
     "question_en": "What is the function of a heat exchanger in a gas furnace?",
     "question_cn": "燃气炉中换热器的功能是什么？",
     "options": [
@@ -8086,6 +8397,7 @@
     "chapter": 16
   },
   {
+    "question_id": 312,
     "question_en": "How does a clogged air filter affect HVAC system performance?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调系统性能？",
     "options": [
@@ -8112,6 +8424,7 @@
     "chapter": 16
   },
   {
+    "question_id": 313,
     "question_en": "What is the primary role of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的主要作用是什么？",
     "options": [
@@ -8138,6 +8451,7 @@
     "chapter": 16
   },
   {
+    "question_id": 314,
     "question_en": "What is the purpose of a zoning system in HVAC applications?",
     "question_cn": "暖通空调应用中分区系统的作用是什么？",
     "options": [
@@ -8164,6 +8478,7 @@
     "chapter": 16
   },
   {
+    "question_id": 315,
     "question_en": "How does an oversized HVAC system impact energy consumption?",
     "question_cn": "过大的暖通空调系统如何影响能源消耗？",
     "options": [
@@ -8190,6 +8505,7 @@
     "chapter": 16
   },
   {
+    "question_id": 316,
     "question_en": "What is the function of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的功能是什么？",
     "options": [
@@ -8216,6 +8532,7 @@
     "chapter": 16
   },
   {
+    "question_id": 317,
     "question_en": "What is the recommended slope for horizontal refrigerant lines in HVAC systems?",
     "question_cn": "暖通空调系统中水平制冷剂管路的推荐坡度是多少？",
     "options": [
@@ -8242,6 +8559,7 @@
     "chapter": 16
   },
   {
+    "question_id": 318,
     "question_en": "What is the role of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀  的作用是什么？",
     "options": [
@@ -8268,6 +8586,7 @@
     "chapter": 16
   },
   {
+    "question_id": 319,
     "question_en": "How does duct leakage affect temperature control in a building?",
     "question_cn": "管道泄漏如何影响建筑的温度控制？",
     "options": [
@@ -8294,6 +8613,7 @@
     "chapter": 16
   },
   {
+    "question_id": 320,
     "question_en": "What is the primary purpose of an air handler in an HVAC system?",
     "question_cn": "暖通空调系统中空气处理机的主要作用是什么？",
     "options": [
@@ -8320,6 +8640,7 @@
     "chapter": 16
   },
   {
+    "question_id": 321,
     "question_en": "What is the function of a low-pressure switch in an HVAC system?",
     "question_cn": "暖通空调系统中低压开关的功能是什么？",
     "options": [
@@ -8346,6 +8667,7 @@
     "chapter": 17
   },
   {
+    "question_id": 322,
     "question_en": "How does a variable-speed motor improve HVAC efficiency?",
     "question_cn": "变速电机如何提高暖通空调的效率？",
     "options": [
@@ -8372,6 +8694,7 @@
     "chapter": 17
   },
   {
+    "question_id": 323,
     "question_en": "What is the purpose of a condensate trap in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水存水弯的作用是什么？",
     "options": [
@@ -8398,6 +8721,7 @@
     "chapter": 17
   },
   {
+    "question_id": 324,
     "question_en": "How does an undersized HVAC system impact building comfort?",
     "question_cn": "尺寸过小的暖通空调系统如何影响建筑的舒适度？",
     "options": [
@@ -8424,6 +8748,7 @@
     "chapter": 17
   },
   {
+    "question_id": 325,
     "question_en": "What is the function of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的功能是什么？",
     "options": [
@@ -8450,6 +8775,7 @@
     "chapter": 17
   },
   {
+    "question_id": 326,
     "question_en": "What is a common symptom of high static pressure in HVAC systems?",
     "question_cn": "暖通空调系统中静压过高的常见症状是什么？",
     "options": [
@@ -8476,6 +8802,7 @@
     "chapter": 17
   },
   {
+    "question_id": 327,
     "question_en": "How does duct insulation benefit an HVAC system?",
     "question_cn": "管道绝缘如何使暖通空调系统受益？",
     "options": [
@@ -8502,6 +8829,7 @@
     "chapter": 17
   },
   {
+    "question_id": 328,
     "question_en": "What is the primary role of a suction line in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管的主要作用是什么？",
     "options": [
@@ -8528,6 +8856,7 @@
     "chapter": 17
   },
   {
+    "question_id": 329,
     "question_en": "How often should HVAC air filters be inspected and replaced?",
     "question_cn": "暖通空调空气过滤器应多久检查和更换一次？",
     "options": [
@@ -8554,6 +8883,7 @@
     "chapter": 17
   },
   {
+    "question_id": 330,
     "question_en": "What is a potential problem caused by oversized HVAC equipment?",
     "question_cn": "过大的暖通空调设备可能引起什么问题？",
     "options": [
@@ -8580,6 +8910,7 @@
     "chapter": 17
   },
   {
+    "question_id": 331,
     "question_en": "What is the primary function of a refrigerant recovery machine in HVAC maintenance?",
     "question_cn": "暖通空调维护中制冷剂回收机的主要功能是什么？",
     "options": [
@@ -8606,6 +8937,7 @@
     "chapter": 17
   },
   {
+    "question_id": 332,
     "question_en": "How does duct leakage impact HVAC system performance?",
     "question_cn": "管道泄漏如何影响暖通空调系统性能？",
     "options": [
@@ -8632,6 +8964,7 @@
     "chapter": 17
   },
   {
+    "question_id": 333,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in a refrigeration system?",
     "question_cn": "制冷系统中热膨胀阀 的作用是什么？",
     "options": [
@@ -8658,6 +8991,7 @@
     "chapter": 17
   },
   {
+    "question_id": 334,
     "question_en": "How often should HVAC condensate drains be inspected?",
     "question_cn": "暖通空调冷凝水排水管应多久检查一次？",
     "options": [
@@ -8684,6 +9018,7 @@
     "chapter": 17
   },
   {
+    "question_id": 335,
     "question_en": "What is the role of a heat pump's reversing valve?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -8710,6 +9045,7 @@
     "chapter": 17
   },
   {
+    "question_id": 336,
     "question_en": "What is the function of a suction line accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管蓄液器的功能是什么？",
     "options": [
@@ -8736,6 +9072,7 @@
     "chapter": 17
   },
   {
+    "question_id": 337,
     "question_en": "How does a clogged condenser coil affect HVAC performance?",
     "question_cn": "堵塞的冷凝器线圈如何影响暖通空调性能？",
     "options": [
@@ -8762,6 +9099,7 @@
     "chapter": 17
   },
   {
+    "question_id": 338,
     "question_en": "What is the purpose of duct insulation in HVAC systems?",
     "question_cn": "暖通空调系统中管道绝缘的作用是什么？",
     "options": [
@@ -8788,6 +9126,7 @@
     "chapter": 17
   },
   {
+    "question_id": 339,
     "question_en": "How does high static pressure affect an HVAC system?",
     "question_cn": "高静压如何影响暖通空调系统？",
     "options": [
@@ -8814,6 +9153,7 @@
     "chapter": 17
   },
   {
+    "question_id": 340,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见症状是什么？",
     "options": [
@@ -8840,6 +9180,7 @@
     "chapter": 17
   },
   {
+    "question_id": 341,
     "question_en": "What is the primary function of a filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中过滤干燥器的主要功能是什么？",
     "options": [
@@ -8866,6 +9207,7 @@
     "chapter": 18
   },
   {
+    "question_id": 342,
     "question_en": "How does a dirty evaporator coil affect HVAC performance?",
     "question_cn": "脏污的蒸发器线圈如何影响暖通空调性能？",
     "options": [
@@ -8892,6 +9234,7 @@
     "chapter": 18
   },
   {
+    "question_id": 343,
     "question_en": "What is the purpose of a heat pump's reversing valve?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -8918,6 +9261,7 @@
     "chapter": 18
   },
   {
+    "question_id": 344,
     "question_en": "What is the role of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的作用是什么？",
     "options": [
@@ -8944,6 +9288,7 @@
     "chapter": 18
   },
   {
+    "question_id": 345,
     "question_en": "How does duct leakage impact indoor air quality?",
     "question_cn": "管道泄漏如何影响室内空气质量？",
     "options": [
@@ -8970,6 +9315,7 @@
     "chapter": 18
   },
   {
+    "question_id": 346,
     "question_en": "What is the purpose of a crankcase heater in an HVAC system?",
     "question_cn": "暖通空调系统中曲轴箱加热器的作用是什么？",
     "options": [
@@ -8996,6 +9342,7 @@
     "chapter": 18
   },
   {
+    "question_id": 347,
     "question_en": "How does high refrigerant pressure affect HVAC components?",
     "question_cn": "制冷剂压力过高如何影响暖通空调组件？",
     "options": [
@@ -9022,6 +9369,7 @@
     "chapter": 18
   },
   {
+    "question_id": 348,
     "question_en": "What is the primary purpose of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的主要作用是什么？",
     "options": [
@@ -9048,6 +9396,7 @@
     "chapter": 18
   },
   {
+    "question_id": 349,
     "question_en": "How often should refrigerant lines be inspected for leaks?",
     "question_cn": "制冷剂管路应多久检查一次是否泄漏？",
     "options": [
@@ -9074,6 +9423,7 @@
     "chapter": 18
   },
   {
+    "question_id": 350,
     "question_en": "What is a potential problem caused by oversized HVAC equipment?",
     "question_cn": "过大的暖通空调设备可能引起什么问题？",
     "options": [
@@ -9100,6 +9450,7 @@
     "chapter": 18
   },
   {
+    "question_id": 351,
     "question_en": "What is the primary function of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的主要功能是什么？",
     "options": [
@@ -9126,6 +9477,7 @@
     "chapter": 18
   },
   {
+    "question_id": 352,
     "question_en": "How does a frozen evaporator coil impact HVAC system performance?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调系统性能？",
     "options": [
@@ -9152,6 +9504,7 @@
     "chapter": 18
   },
   {
+    "question_id": 353,
     "question_en": "What is the purpose of a suction line in an HVAC system?",
     "question_cn": "暖通空调系统中吸气管的作用是什么？",
     "options": [
@@ -9178,6 +9531,7 @@
     "chapter": 18
   },
   {
+    "question_id": 354,
     "question_en": "What is the function of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀 的功能是什么？",
     "options": [
@@ -9204,6 +9558,7 @@
     "chapter": 18
   },
   {
+    "question_id": 355,
     "question_en": "How often should duct systems be inspected for leaks or damage?",
     "question_cn": "管道系统应多久检查一次是否有泄漏或损坏？",
     "options": [
@@ -9230,6 +9585,7 @@
     "chapter": 18
   },
   {
+    "question_id": 356,
     "question_en": "What is the role of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的作用是什么？",
     "options": [
@@ -9256,6 +9612,7 @@
     "chapter": 18
   },
   {
+    "question_id": 357,
     "question_en": "How does high static pressure affect an HVAC system?",
     "question_cn": "高静压如何影响暖通空调系统？",
     "options": [
@@ -9282,6 +9639,7 @@
     "chapter": 18
   },
   {
+    "question_id": 358,
     "question_en": "What is a common symptom of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统的常见症状是什么？",
     "options": [
@@ -9308,6 +9666,7 @@
     "chapter": 18
   },
   {
+    "question_id": 359,
     "question_en": "What is the purpose of a bypass damper in a zoning system?",
     "question_cn": "分区系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -9334,6 +9693,7 @@
     "chapter": 18
   },
   {
+    "question_id": 360,
     "question_en": "How does a clogged air filter impact HVAC performance?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调性能？",
     "options": [
@@ -9360,6 +9720,7 @@
     "chapter": 18
   },
   {
+    "question_id": 361,
     "question_en": "What is the purpose of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的作用是什么？",
     "options": [
@@ -9386,6 +9747,7 @@
     "chapter": 19
   },
   {
+    "question_id": 362,
     "question_en": "How does duct leakage affect energy costs in HVAC systems?",
     "question_cn": "管道泄漏如何影响暖通空调系统的能源成本？",
     "options": [
@@ -9412,6 +9774,7 @@
     "chapter": 19
   },
   {
+    "question_id": 363,
     "question_en": "What is the function of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的功能是什么？",
     "options": [
@@ -9438,6 +9801,7 @@
     "chapter": 19
   },
   {
+    "question_id": 364,
     "question_en": "What is the role of a thermal expansion valve in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -9464,6 +9828,7 @@
     "chapter": 19
   },
   {
+    "question_id": 365,
     "question_en": "How does high static pressure impact an HVAC system?",
     "question_cn": "高静压如何影响暖通空调系统？",
     "options": [
@@ -9490,6 +9855,7 @@
     "chapter": 19
   },
   {
+    "question_id": 366,
     "question_en": "What is the purpose of a humidistat in HVAC systems?",
     "question_cn": "暖通空调系统中湿度控制器的作用是什么？",
     "options": [
@@ -9516,6 +9882,7 @@
     "chapter": 19
   },
   {
+    "question_id": 367,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见症状是什么？",
     "options": [
@@ -9542,6 +9909,7 @@
     "chapter": 19
   },
   {
+    "question_id": 368,
     "question_en": "What is the function of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的功能是什么？",
     "options": [
@@ -9568,6 +9936,7 @@
     "chapter": 19
   },
   {
+    "question_id": 369,
     "question_en": "How does a dirty condenser coil affect HVAC efficiency?",
     "question_cn": "脏污的冷凝器线圈如何影响暖通空调效率？",
     "options": [
@@ -9594,6 +9963,7 @@
     "chapter": 19
   },
   {
+    "question_id": 370,
     "question_en": "What is the primary function of a suction accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气蓄液器的主要功能是什么？",
     "options": [
@@ -9620,6 +9990,7 @@
     "chapter": 19
   },
   {
+    "question_id": 371,
     "question_en": "What is the role of a heat pump's defrost cycle?",
     "question_cn": "热泵的除霜循环的作用是什么？",
     "options": [
@@ -9646,6 +10017,7 @@
     "chapter": 19
   },
   {
+    "question_id": 372,
     "question_en": "How does an oversized HVAC system affect humidity control?",
     "question_cn": "过大的暖通空调系统如何影响湿度控制？",
     "options": [
@@ -9672,6 +10044,7 @@
     "chapter": 19
   },
   {
+    "question_id": 373,
     "question_en": "What is the function of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的功能是什么？",
     "options": [
@@ -9698,6 +10071,7 @@
     "chapter": 19
   },
   {
+    "question_id": 374,
     "question_en": "How does duct insulation benefit an HVAC system?",
     "question_cn": "管道绝缘如何使暖通空调系统受益？",
     "options": [
@@ -9724,6 +10098,7 @@
     "chapter": 19
   },
   {
+    "question_id": 375,
     "question_en": "What is a common symptom of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的常见症状是什么？",
     "options": [
@@ -9750,6 +10125,7 @@
     "chapter": 19
   },
   {
+    "question_id": 376,
     "question_en": "What is the purpose of a refrigerant sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂视镜的作用是什么？",
     "options": [
@@ -9776,6 +10152,7 @@
     "chapter": 19
   },
   {
+    "question_id": 377,
     "question_en": "How does high static pressure affect HVAC system components?",
     "question_cn": "高静压如何影响暖通空调系统组件？",
     "options": [
@@ -9802,6 +10179,7 @@
     "chapter": 19
   },
   {
+    "question_id": 378,
     "question_en": "What is the purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -9828,6 +10206,7 @@
     "chapter": 19
   },
   {
+    "question_id": 379,
     "question_en": "How does a clogged air filter impact HVAC energy consumption?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调的能源消耗？",
     "options": [
@@ -9854,6 +10233,7 @@
     "chapter": 19
   },
   {
+    "question_id": 380,
     "question_en": "What is the function of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的功能是什么？",
     "options": [
@@ -9880,6 +10260,7 @@
     "chapter": 19
   },
   {
+    "question_id": 381,
     "question_en": "What is the primary function of a reversing valve in a heat pump system?",
     "question_cn": "热泵系统中换向阀的主要功能是什么？",
     "options": [
@@ -9906,6 +10287,7 @@
     "chapter": 20
   },
   {
+    "question_id": 382,
     "question_en": "How does duct leakage affect temperature control in an HVAC system?",
     "question_cn": "管道泄漏如何影响暖通空调系统的温度控制？",
     "options": [
@@ -9932,6 +10314,7 @@
     "chapter": 20
   },
   {
+    "question_id": 383,
     "question_en": "What is a potential consequence of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的潜在后果是什么？",
     "options": [
@@ -9958,6 +10341,7 @@
     "chapter": 20
   },
   {
+    "question_id": 384,
     "question_en": "What is the function of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的功能是什么？",
     "options": [
@@ -9984,6 +10368,7 @@
     "chapter": 20
   },
   {
+    "question_id": 385,
     "question_en": "How does a clogged condenser coil impact HVAC system performance?",
     "question_cn": "堵塞的冷凝器线圈如何影响暖通空调系统性能？",
     "options": [
@@ -10010,6 +10395,7 @@
     "chapter": 20
   },
   {
+    "question_id": 386,
     "question_en": "What is the purpose of duct insulation in an HVAC system?",
     "question_cn": "暖通空调系统中管道绝缘的作用是什么？",
     "options": [
@@ -10036,6 +10422,7 @@
     "chapter": 20
   },
   {
+    "question_id": 387,
     "question_en": "What is the role of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -10062,6 +10449,7 @@
     "chapter": 20
   },
   {
+    "question_id": 388,
     "question_en": "How does high static pressure impact HVAC energy efficiency?",
     "question_cn": "高静压如何影响暖通空调的能源效率？",
     "options": [
@@ -10088,6 +10476,7 @@
     "chapter": 20
   },
   {
+    "question_id": 389,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见症状是什么？",
     "options": [
@@ -10114,6 +10503,7 @@
     "chapter": 20
   },
   {
+    "question_id": 390,
     "question_en": "What is the primary function of a condensate trap in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水存水弯的主要功能是什么？",
     "options": [
@@ -10140,6 +10530,7 @@
     "chapter": 20
   },
   {
+    "question_id": 391,
     "question_en": "What is the function of a liquid line filter drier in an HVAC system?",
     "question_cn": "暖通空调系统中液管过滤干燥器的功能是什么？",
     "options": [
@@ -10166,6 +10557,7 @@
     "chapter": 20
   },
   {
+    "question_id": 392,
     "question_en": "How does a frozen evaporator coil affect HVAC performance?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调性能？",
     "options": [
@@ -10192,6 +10584,7 @@
     "chapter": 20
   },
   {
+    "question_id": 393,
     "question_en": "What is the purpose of a bypass damper in an HVAC zoning system?",
     "question_cn": "暖通空调分区系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -10218,6 +10611,7 @@
     "chapter": 20
   },
   {
+    "question_id": 394,
     "question_en": "How does duct leakage impact HVAC efficiency?",
     "question_cn": "管道泄漏如何影响暖通空调的效率？",
     "options": [
@@ -10244,6 +10638,7 @@
     "chapter": 20
   },
   {
+    "question_id": 395,
     "question_en": "What is the function of a thermal expansion valve in a refrigeration system?",
     "question_cn": "制冷系统中热膨胀阀的功能是什么？",
     "options": [
@@ -10270,6 +10665,7 @@
     "chapter": 20
   },
   {
+    "question_id": 396,
     "question_en": "How does high static pressure affect the longevity of HVAC components?",
     "question_cn": "高静压如何影响暖通空调组件的使用寿命？",
     "options": [
@@ -10296,6 +10692,7 @@
     "chapter": 20
   },
   {
+    "question_id": 397,
     "question_en": "What is the primary purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的主要作用是什么？",
     "options": [
@@ -10322,6 +10719,7 @@
     "chapter": 20
   },
   {
+    "question_id": 398,
     "question_en": "How does a clogged air filter affect HVAC system operation?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调系统运行？",
     "options": [
@@ -10348,6 +10746,7 @@
     "chapter": 20
   },
   {
+    "question_id": 399,
     "question_en": "What is the role of a plenum in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中静压箱的作用是什么？",
     "options": [
@@ -10374,6 +10773,7 @@
     "chapter": 20
   },
   {
+    "question_id": 400,
     "question_en": "What is a common symptom of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统的常见症状是什么？",
     "options": [
@@ -10400,6 +10800,7 @@
     "chapter": 20
   },
   {
+    "question_id": 401,
     "question_en": "What is the primary purpose of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的主要作用是什么？",
     "options": [
@@ -10426,6 +10827,7 @@
     "chapter": 21
   },
   {
+    "question_id": 402,
     "question_en": "How does high refrigerant pressure impact HVAC system safety?",
     "question_cn": "高制冷剂压力如何影响暖通空调系统的安全性？",
     "options": [
@@ -10452,6 +10854,7 @@
     "chapter": 21
   },
   {
+    "question_id": 403,
     "question_en": "What is the role of a draft inducer motor in a gas furnace?",
     "question_cn": "燃气炉中引风电机的作用是什么？",
     "options": [
@@ -10478,6 +10881,7 @@
     "chapter": 21
   },
   {
+    "question_id": 404,
     "question_en": "What is a potential consequence of duct leakage in an HVAC system?",
     "question_cn": "暖通空调系统中管道泄漏的潜在后果是什么？",
     "options": [
@@ -10504,6 +10908,7 @@
     "chapter": 21
   },
   {
+    "question_id": 405,
     "question_en": "What is the primary function of a balancing damper in HVAC systems?",
     "question_cn": "暖通空调系统中平衡阻尼器的主要功能是什么？",
     "options": [
@@ -10530,6 +10935,7 @@
     "chapter": 21
   },
   {
+    "question_id": 406,
     "question_en": "How does a clogged air filter affect indoor air quality in HVAC systems?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调系统中的室内空气质量？",
     "options": [
@@ -10556,6 +10962,7 @@
     "chapter": 21
   },
   {
+    "question_id": 407,
     "question_en": "What is the purpose of a crankcase heater in a heat pump system?",
     "question_cn": "热泵系统中曲轴箱加热器的作用是什么？",
     "options": [
@@ -10582,6 +10989,7 @@
     "chapter": 21
   },
   {
+    "question_id": 408,
     "question_en": "How does duct insulation benefit an HVAC system?",
     "question_cn": "管道绝缘如何使暖通空调系统受益？",
     "options": [
@@ -10608,6 +11016,7 @@
     "chapter": 21
   },
   {
+    "question_id": 409,
     "question_en": "What is the primary cause of high static pressure in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中静压过高的主要原因是什么？",
     "options": [
@@ -10634,6 +11043,7 @@
     "chapter": 21
   },
   {
+    "question_id": 410,
     "question_en": "How does an oversized HVAC system impact comfort levels?",
     "question_cn": "过大的暖通空调系统如何影响舒适度？",
     "options": [
@@ -10660,6 +11070,7 @@
     "chapter": 21
   },
   {
+    "question_id": 411,
     "question_en": "What is the primary purpose of a suction accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气蓄液器的主要作用是什么？",
     "options": [
@@ -10686,6 +11097,7 @@
     "chapter": 21
   },
   {
+    "question_id": 412,
     "question_en": "How does high static pressure affect HVAC system performance?",
     "question_cn": "高静压如何影响暖通空调系统性能？",
     "options": [
@@ -10712,6 +11124,7 @@
     "chapter": 21
   },
   {
+    "question_id": 413,
     "question_en": "What is the role of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -10738,6 +11151,7 @@
     "chapter": 21
   },
   {
+    "question_id": 414,
     "question_en": "What is a common symptom of duct leakage in HVAC systems?",
     "question_cn": "暖通空调系统中管道泄漏的常见症状是什么？",
     "options": [
@@ -10764,6 +11178,7 @@
     "chapter": 21
   },
   {
+    "question_id": 415,
     "question_en": "How does a dirty air filter impact HVAC system efficiency?",
     "question_cn": "脏污的空气过滤器如何影响暖通空调系统效率？",
     "options": [
@@ -10790,6 +11205,7 @@
     "chapter": 21
   },
   {
+    "question_id": 416,
     "question_en": "What is the function of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的功能是什么？",
     "options": [
@@ -10816,6 +11232,7 @@
     "chapter": 21
   },
   {
+    "question_id": 417,
     "question_en": "What is the purpose of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -10842,6 +11259,7 @@
     "chapter": 21
   },
   {
+    "question_id": 418,
     "question_en": "How does duct insulation benefit HVAC energy efficiency?",
     "question_cn": "管道绝缘如何提高暖通空调的能源效率？",
     "options": [
@@ -10868,6 +11286,7 @@
     "chapter": 21
   },
   {
+    "question_id": 419,
     "question_en": "What is the primary function of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的主要功能是什么？",
     "options": [
@@ -10894,6 +11313,7 @@
     "chapter": 21
   },
   {
+    "question_id": 420,
     "question_en": "How does a frozen evaporator coil affect HVAC system performance?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调系统性能？",
     "options": [
@@ -10920,6 +11340,7 @@
     "chapter": 21
   },
   {
+    "question_id": 421,
     "question_en": "What is the role of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的作用是什么？",
     "options": [
@@ -10946,6 +11367,7 @@
     "chapter": 22
   },
   {
+    "question_id": 422,
     "question_en": "How does high refrigerant pressure affect HVAC system components?",
     "question_cn": "高制冷剂压力如何影响暖通空调系统的组件？",
     "options": [
@@ -10972,6 +11394,7 @@
     "chapter": 22
   },
   {
+    "question_id": 423,
     "question_en": "What is the function of a liquid line sight glass in HVAC systems?",
     "question_cn": "暖通空调系统中液管视镜的功能是什么？",
     "options": [
@@ -10998,6 +11421,7 @@
     "chapter": 22
   },
   {
+    "question_id": 424,
     "question_en": "How does duct leakage impact energy efficiency in an HVAC system?",
     "question_cn": "管道泄漏如何影响暖通空调系统的能源效率？",
     "options": [
@@ -11024,6 +11448,7 @@
     "chapter": 22
   },
   {
+    "question_id": 425,
     "question_en": "What is the primary function of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的主要功能是什么？",
     "options": [
@@ -11050,6 +11475,7 @@
     "chapter": 22
   },
   {
+    "question_id": 426,
     "question_en": "How does a balancing damper improve HVAC airflow distribution?",
     "question_cn": "平衡阻尼器如何改善暖通空调的气流分布？",
     "options": [
@@ -11076,6 +11502,7 @@
     "chapter": 22
   },
   {
+    "question_id": 427,
     "question_en": "What is the impact of a clogged condenser coil on HVAC performance?",
     "question_cn": "堵塞的冷凝器线圈对暖通空调性能有何影响？",
     "options": [
@@ -11102,6 +11529,7 @@
     "chapter": 22
   },
   {
+    "question_id": 428,
     "question_en": "What is a common consequence of high static pressure in HVAC systems?",
     "question_cn": "暖通空调系统中静压过高的常见后果是什么？",
     "options": [
@@ -11128,6 +11556,7 @@
     "chapter": 22
   },
   {
+    "question_id": 429,
     "question_en": "What is the purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -11154,6 +11583,7 @@
     "chapter": 22
   },
   {
+    "question_id": 430,
     "question_en": "How does an oversized HVAC system affect indoor humidity control?",
     "question_cn": "过大的暖通空调系统如何影响室内湿度控制？",
     "options": [
@@ -11180,6 +11610,7 @@
     "chapter": 22
   },
   {
+    "question_id": 431,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -11206,6 +11637,7 @@
     "chapter": 22
   },
   {
+    "question_id": 432,
     "question_en": "How does duct leakage affect HVAC system operation?",
     "question_cn": "管道泄漏如何影响暖通空调系统的运行？",
     "options": [
@@ -11232,6 +11664,7 @@
     "chapter": 22
   },
   {
+    "question_id": 433,
     "question_en": "What is a common symptom of low refrigerant levels in an HVAC system?",
     "question_cn": "暖通空调系统中制冷剂水平低的常见症状是什么？",
     "options": [
@@ -11258,6 +11691,7 @@
     "chapter": 22
   },
   {
+    "question_id": 434,
     "question_en": "How does a bypass damper function in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -11284,6 +11718,7 @@
     "chapter": 22
   },
   {
+    "question_id": 435,
     "question_en": "What is the primary function of a suction accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气蓄液器的主要功能是什么？",
     "options": [
@@ -11310,6 +11745,7 @@
     "chapter": 22
   },
   {
+    "question_id": 436,
     "question_en": "How does a dirty condenser coil affect HVAC energy consumption?",
     "question_cn": "脏污的冷凝器线圈如何影响暖通空调的能源消耗？",
     "options": [
@@ -11336,6 +11772,7 @@
     "chapter": 22
   },
   {
+    "question_id": 437,
     "question_en": "What is the purpose of duct insulation in an HVAC system?",
     "question_cn": "暖通空调系统中管道绝缘的作用是什么？",
     "options": [
@@ -11362,6 +11799,7 @@
     "chapter": 22
   },
   {
+    "question_id": 438,
     "question_en": "What is the role of an air handler in an HVAC system?",
     "question_cn": "暖通空调系统中空气处理机的作用是什么？",
     "options": [
@@ -11388,6 +11826,7 @@
     "chapter": 22
   },
   {
+    "question_id": 439,
     "question_en": "How does high static pressure affect HVAC system components?",
     "question_cn": "高静压如何影响暖通空调系统组件？",
     "options": [
@@ -11414,6 +11853,7 @@
     "chapter": 22
   },
   {
+    "question_id": 440,
     "question_en": "What is a common consequence of an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统的常见后果是什么？",
     "options": [
@@ -11440,6 +11880,7 @@
     "chapter": 22
   },
   {
+    "question_id": 441,
     "question_en": "What is the purpose of a condensate trap in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水存水弯的作用是什么？",
     "options": [
@@ -11466,6 +11907,7 @@
     "chapter": 23
   },
   {
+    "question_id": 442,
     "question_en": "How does an undersized HVAC system affect building comfort?",
     "question_cn": "尺寸过小的暖通空调系统如何影响建筑的舒适度？",
     "options": [
@@ -11492,6 +11934,7 @@
     "chapter": 23
   },
   {
+    "question_id": 443,
     "question_en": "What is the function of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的功能是什么？",
     "options": [
@@ -11518,6 +11961,7 @@
     "chapter": 23
   },
   {
+    "question_id": 444,
     "question_en": "How does a clogged air filter impact indoor air quality?",
     "question_cn": "堵塞的空气过滤器如何影响室内空气质量？",
     "options": [
@@ -11544,6 +11988,7 @@
     "chapter": 23
   },
   {
+    "question_id": 445,
     "question_en": "What is the primary function of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的主要功能是什么？",
     "options": [
@@ -11570,6 +12015,7 @@
     "chapter": 23
   },
   {
+    "question_id": 446,
     "question_en": "How does high static pressure in an HVAC system impact energy usage?",
     "question_cn": "暖通空调系统中高静压如何影响能源使用？",
     "options": [
@@ -11596,6 +12042,7 @@
     "chapter": 23
   },
   {
+    "question_id": 447,
     "question_en": "What is the function of duct insulation in HVAC systems?",
     "question_cn": "暖通空调系统中管道绝缘的功能是什么？",
     "options": [
@@ -11622,6 +12069,7 @@
     "chapter": 23
   },
   {
+    "question_id": 448,
     "question_en": "How does an oversized HVAC system affect humidity levels?",
     "question_cn": "过大的暖通空调系统如何影响湿度水平？",
     "options": [
@@ -11648,6 +12096,7 @@
     "chapter": 23
   },
   {
+    "question_id": 449,
     "question_en": "What is a potential problem caused by a dirty evaporator coil?",
     "question_cn": "脏污的蒸发器线圈可能引起什么问题？",
     "options": [
@@ -11674,6 +12123,7 @@
     "chapter": 23
   },
   {
+    "question_id": 450,
     "question_en": "What is the primary function of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的主要功能是什么？",
     "options": [
@@ -11700,6 +12150,7 @@
     "chapter": 23
   },
   {
+    "question_id": 451,
     "question_en": "What is the purpose of a refrigerant recovery machine in HVAC maintenance?",
     "question_cn": "暖通空调维护中制冷剂回收机的作用是什么？",
     "options": [
@@ -11726,6 +12177,7 @@
     "chapter": 23
   },
   {
+    "question_id": 452,
     "question_en": "How does a frozen evaporator coil impact HVAC operation?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调运行？",
     "options": [
@@ -11752,6 +12204,7 @@
     "chapter": 23
   },
   {
+    "question_id": 453,
     "question_en": "What is the role of a bypass damper in a zoning HVAC system?",
     "question_cn": "分区暖通空调系统中旁通阻尼器的作用是什么？",
     "options": [
@@ -11778,6 +12231,7 @@
     "chapter": 23
   },
   {
+    "question_id": 454,
     "question_en": "How does duct insulation benefit HVAC energy efficiency?",
     "question_cn": "管道绝缘如何提高暖通空调的能源效率？",
     "options": [
@@ -11804,6 +12258,7 @@
     "chapter": 23
   },
   {
+    "question_id": 455,
     "question_en": "What is a common symptom of high static pressure in HVAC systems?",
     "question_cn": "暖通空调系统中静压过高的常见症状是什么？",
     "options": [
@@ -11830,6 +12285,7 @@
     "chapter": 23
   },
   {
+    "question_id": 456,
     "question_en": "What is the function of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的功能是什么？",
     "options": [
@@ -11856,6 +12312,7 @@
     "chapter": 23
   },
   {
+    "question_id": 457,
     "question_en": "How does a clogged air filter affect HVAC energy consumption?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调的能源消耗？",
     "options": [
@@ -11882,6 +12339,7 @@
     "chapter": 23
   },
   {
+    "question_id": 458,
     "question_en": "What is the primary purpose of a condensate pump in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水泵的主要作用是什么？",
     "options": [
@@ -11908,6 +12366,7 @@
     "chapter": 23
   },
   {
+    "question_id": 459,
     "question_en": "How does an oversized HVAC system affect indoor air quality?",
     "question_cn": "过大的暖通空调系统如何影响室内空气质量？",
     "options": [
@@ -11934,6 +12393,7 @@
     "chapter": 23
   },
   {
+    "question_id": 460,
     "question_en": "What is the function of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的功能是什么？",
     "options": [
@@ -11960,6 +12420,7 @@
     "chapter": 23
   },
   {
+    "question_id": 461,
     "question_en": "What is the role of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的作用是什么？",
     "options": [
@@ -11986,6 +12447,7 @@
     "chapter": 24
   },
   {
+    "question_id": 462,
     "question_en": "How does duct leakage impact HVAC system performance?",
     "question_cn": "管道泄漏如何影响暖通空调系统性能？",
     "options": [
@@ -12012,6 +12474,7 @@
     "chapter": 24
   },
   {
+    "question_id": 463,
     "question_en": "What is the function of a suction accumulator in an HVAC system?",
     "question_cn": "暖通空调系统中吸气蓄液器的功能是什么？",
     "options": [
@@ -12038,6 +12501,7 @@
     "chapter": 24
   },
   {
+    "question_id": 464,
     "question_en": "How does a dirty air filter affect HVAC system operation?",
     "question_cn": "脏污的空气过滤器如何影响暖通空调系统运行？",
     "options": [
@@ -12064,6 +12528,7 @@
     "chapter": 24
   },
   {
+    "question_id": 465,
     "question_en": "What is a potential consequence of high static pressure in HVAC systems?",
     "question_cn": "暖通空调系统中静压过高的潜在后果是什么？",
     "options": [
@@ -12090,6 +12555,7 @@
     "chapter": 24
   },
   {
+    "question_id": 466,
     "question_en": "What is the purpose of a thermal expansion valve (TXV) in an HVAC system?",
     "question_cn": "暖通空调系统中热膨胀阀的作用是什么？",
     "options": [
@@ -12116,6 +12582,7 @@
     "chapter": 24
   },
   {
+    "question_id": 467,
     "question_en": "How does an oversized HVAC system impact energy efficiency?",
     "question_cn": "过大的暖通空调系统如何影响能源效率？",
     "options": [
@@ -12142,6 +12609,7 @@
     "chapter": 24
   },
   {
+    "question_id": 468,
     "question_en": "What is the role of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -12168,6 +12636,7 @@
     "chapter": 24
   },
   {
+    "question_id": 469,
     "question_en": "What is a common symptom of duct leakage in HVAC systems?",
     "question_cn": "暖通空调系统中管道泄漏的常见症状是什么？",
     "options": [
@@ -12194,6 +12663,7 @@
     "chapter": 24
   },
   {
+    "question_id": 470,
     "question_en": "How does high refrigerant pressure affect HVAC safety?",
     "question_cn": "高制冷剂压力如何影响暖通空调的安全性？",
     "options": [
@@ -12220,6 +12690,7 @@
     "chapter": 24
   },
   {
+    "question_id": 471,
     "question_en": "What is the purpose of a crankcase heater in an HVAC system?",
     "question_cn": "暖通空调系统中曲轴箱加热器的作用是什么？",
     "options": [
@@ -12246,6 +12717,7 @@
     "chapter": 24
   },
   {
+    "question_id": 472,
     "question_en": "How does high static pressure in an HVAC system impact system components?",
     "question_cn": "暖通空调系统中高静压如何影响系统组件？",
     "options": [
@@ -12272,6 +12744,7 @@
     "chapter": 24
   },
   {
+    "question_id": 473,
     "question_en": "What is a potential problem caused by an oversized HVAC system?",
     "question_cn": "过大的暖通空调系统可能引起什么问题？",
     "options": [
@@ -12298,6 +12771,7 @@
     "chapter": 24
   },
   {
+    "question_id": 474,
     "question_en": "What is the function of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的功能是什么？",
     "options": [
@@ -12324,6 +12798,7 @@
     "chapter": 24
   },
   {
+    "question_id": 475,
     "question_en": "How does duct insulation impact HVAC system efficiency?",
     "question_cn": "管道绝缘如何影响暖通空调系统的效率？",
     "options": [
@@ -12350,6 +12825,7 @@
     "chapter": 24
   },
   {
+    "question_id": 476,
     "question_en": "What is the purpose of a condensate pump in HVAC systems?",
     "question_cn": "暖通空调系统中冷凝水泵的作用是什么？",
     "options": [
@@ -12376,6 +12852,7 @@
     "chapter": 24
   },
   {
+    "question_id": 477,
     "question_en": "How does a frozen evaporator coil affect HVAC system operation?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调系统的运行？",
     "options": [
@@ -12402,6 +12879,7 @@
     "chapter": 24
   },
   {
+    "question_id": 478,
     "question_en": "What is the role of an economizer in an HVAC system?",
     "question_cn": "暖通空调系统中节能器的作用是什么？",
     "options": [
@@ -12428,6 +12906,7 @@
     "chapter": 24
   },
   {
+    "question_id": 479,
     "question_en": "How does high refrigerant pressure impact HVAC safety?",
     "question_cn": "高制冷剂压力如何影响暖通空调的安全性？",
     "options": [
@@ -12454,6 +12933,7 @@
     "chapter": 24
   },
   {
+    "question_id": 480,
     "question_en": "What is a common symptom of duct leakage in HVAC systems?",
     "question_cn": "暖通空调系统中管道泄漏的常见症状是什么？",
     "options": [
@@ -12480,6 +12960,7 @@
     "chapter": 24
   },
   {
+    "question_id": 481,
     "question_en": "How does high static pressure impact the airflow in an HVAC system?",
     "question_cn": "高静压如何影响暖通空调系统中的气流？",
     "options": [
@@ -12506,6 +12987,7 @@
     "chapter": 25
   },
   {
+    "question_id": 482,
     "question_en": "What is the function of a sight glass in an HVAC system?",
     "question_cn": "暖通空调系统中视镜的功能是什么？",
     "options": [
@@ -12532,6 +13014,7 @@
     "chapter": 25
   },
   {
+    "question_id": 483,
     "question_en": "How does a clogged air filter affect HVAC cooling performance?",
     "question_cn": "堵塞的空气过滤器如何影响暖通空调的冷却性能？",
     "options": [
@@ -12558,6 +13041,7 @@
     "chapter": 25
   },
   {
+    "question_id": 484,
     "question_en": "What is the primary purpose of a condensate trap in an HVAC system?",
     "question_cn": "暖通空调系统中冷凝水存水弯的主要作用是什么？",
     "options": [
@@ -12584,6 +13068,7 @@
     "chapter": 25
   },
   {
+    "question_id": 485,
     "question_en": "How does duct insulation benefit HVAC systems in extreme climates?",
     "question_cn": "管道绝缘在极端气候条件下如何使暖通空调系统受益？",
     "options": [
@@ -12610,6 +13095,7 @@
     "chapter": 25
   },
   {
+    "question_id": 486,
     "question_en": "What is the function of a reversing valve in a heat pump?",
     "question_cn": "热泵中换向阀的作用是什么？",
     "options": [
@@ -12636,6 +13122,7 @@
     "chapter": 25
   },
   {
+    "question_id": 487,
     "question_en": "How does an oversized HVAC system impact indoor air comfort?",
     "question_cn": "过大的暖通空调系统如何影响室内空气舒适度？",
     "options": [
@@ -12662,6 +13149,7 @@
     "chapter": 25
   },
   {
+    "question_id": 488,
     "question_en": "What is a potential problem caused by a dirty evaporator coil?",
     "question_cn": "脏污的蒸发器线圈可能引起什么问题？",
     "options": [
@@ -12688,6 +13176,7 @@
     "chapter": 25
   },
   {
+    "question_id": 489,
     "question_en": "How does high refrigerant pressure affect HVAC safety?",
     "question_cn": "高制冷剂压力如何影响暖通空调的安全性？",
     "options": [
@@ -12714,6 +13203,7 @@
     "chapter": 25
   },
   {
+    "question_id": 490,
     "question_en": "What is the primary function of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的主要功能是什么？",
     "options": [
@@ -12740,6 +13230,7 @@
     "chapter": 25
   },
   {
+    "question_id": 491,
     "question_en": "How does a clogged condenser coil affect HVAC system performance?",
     "question_cn": "堵塞的冷凝器线圈如何影响暖通空调系统性能？",
     "options": [
@@ -12766,6 +13257,7 @@
     "chapter": 25
   },
   {
+    "question_id": 492,
     "question_en": "What is the purpose of a balancing damper in an HVAC duct system?",
     "question_cn": "暖通空调管道系统中平衡阻尼器的作用是什么？",
     "options": [
@@ -12792,6 +13284,7 @@
     "chapter": 25
   },
   {
+    "question_id": 493,
     "question_en": "How does duct leakage impact energy costs in HVAC systems?",
     "question_cn": "管道泄漏如何影响暖通空调系统的能源成本？",
     "options": [
@@ -12818,6 +13311,7 @@
     "chapter": 25
   },
   {
+    "question_id": 494,
     "question_en": "What is the role of a crankcase heater in an HVAC compressor?",
     "question_cn": "暖通空调压缩机中曲轴箱加热器的作用是什么？",
     "options": [
@@ -12844,6 +13338,7 @@
     "chapter": 25
   },
   {
+    "question_id": 495,
     "question_en": "How does an oversized HVAC system affect dehumidification?",
     "question_cn": "过大的暖通空调系统如何影响除湿效果？",
     "options": [
@@ -12870,6 +13365,7 @@
     "chapter": 25
   },
   {
+    "question_id": 496,
     "question_en": "What is a common symptom of an undersized HVAC system?",
     "question_cn": "尺寸过小的暖通空调系统的常见症状是什么？",
     "options": [
@@ -12896,6 +13392,7 @@
     "chapter": 25
   },
   {
+    "question_id": 497,
     "question_en": "How does a frozen evaporator coil affect HVAC energy consumption?",
     "question_cn": "蒸发器线圈结冰如何影响暖通空调的能源消耗？",
     "options": [
@@ -12922,6 +13419,7 @@
     "chapter": 25
   },
   {
+    "question_id": 498,
     "question_en": "What is the function of a plenum in an HVAC system?",
     "question_cn": "暖通空调系统中静压箱的功能是什么？",
     "options": [
@@ -12948,6 +13446,7 @@
     "chapter": 25
   },
   {
+    "question_id": 499,
     "question_en": "How does a dirty air filter affect HVAC safety?",
     "question_cn": "脏污的空气过滤器如何影响暖通空调的安全性？",
     "options": [
@@ -12974,6 +13473,7 @@
     "chapter": 25
   },
   {
+    "question_id": 500,
     "question_en": "What is the purpose of a bypass damper in an HVAC zoning system?",
     "question_cn": "暖通空调分区系统中旁通阻尼器的作用是什么？",
     "options": [
