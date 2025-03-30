@@ -1,100 +1,73 @@
 /* styles.css */
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    line-height: 1.6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
 }
 
 h1, h2 {
-    margin: 1rem 0;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 select, button {
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
-}
-
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
+  background-color: #e0e0e0;
 }
 
 .option-btn {
-    display: block;
-    width: 90%;
-    margin: 0.5rem auto;
-    padding: 1rem;
-    font-size: 1.2rem;
-    border-radius: 12px;
-    border: 2px solid #007bff;
-    background-color: #f5f5f5;
-    transition: all 0.2s ease;
+  background-color: white;
+  color: black;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px auto;
+  font-size: 18px;
+  width: 90%;
+  max-width: 800px;
+  display: block;
+  transition: background-color 0.2s;
+}
+
+.option-btn:hover {
+  background-color: #f0f8ff;
+  color: #000;
 }
 
 .option-btn.correct {
-    background-color: #28a745;
-    color: #fff;
-    border-color: #28a745;
+  background-color: #007bff;
+  color: #fff;
 }
 
 .option-btn.wrong {
-    background-color: #dc3545;
-    color: #fff;
-    border-color: #dc3545;
-}
-
-#quiz-container {
-    max-width: 640px;
-    margin: auto;
-    padding: 1rem;
+  background-color: #ff4d4f;
+  color: #fff;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 #explanation {
-    font-style: italic;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    background-color: #f0f0f0;
-    border-left: 4px solid #007bff;
+  margin-top: 20px;
+  font-style: italic;
+  color: #333;
+  padding: 10px;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-    .option-btn {
-        font-size: 1rem;
-        padding: 0.8rem;
-    }
-    select, button {
-        font-size: 1rem;
-        width: 90%;
-        margin: 0.4rem auto;
-    }
-    #quiz-container {
-        padding: 0.5rem;
-    }
+#progress, #accuracy {
+  font-weight: bold;
+  margin: 5px 0;
 }
