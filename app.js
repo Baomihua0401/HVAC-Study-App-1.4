@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(data => {
                 questions = data;
                 const totalChapters = Math.max(...questions.map(q => q.chapter));
-                
+
                 chapterSelect.innerHTML = "";
                 for (let i = 1; i <= totalChapters; i++) {
                     const option = document.createElement("option");
@@ -69,13 +69,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     reviewMistakesButton.addEventListener("click", () => {
-        const mistakes = JSON.parse(localStorage.getItem("mistakes")) || [];
+        const bank = bankSelect.value;
+        const mistakes = JSON.parse(localStorage.getItem(`mistakes_${bank}`)) || [];
         if (mistakes.length === 0) {
             alert("暂无错题！");
             return;
         }
         localStorage.setItem("currentQuestions", JSON.stringify(mistakes));
         localStorage.setItem("currentQuestionIndex", "0");
+        localStorage.setItem("currentBank", bank);
         window.location.href = "quiz.html";
     });
 
