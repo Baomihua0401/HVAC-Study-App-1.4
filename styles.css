@@ -1,107 +1,33 @@
-/* 改进样式文件 styles.css，让移动端更美观，按钮更明显，字体更大 */
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVAC 题库</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HVAC 题库</h1>
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-  text-align: center;
-}
+    <div class="controls">
+        <label for="db-select">选择题库：</label>
+        <select id="db-select">
+            <option value="law">法律题库</option>
+            <option value="skill">技能题库</option>
+        </select>
 
-h1, h2 {
-  font-weight: bold;
-  margin: 1rem 0;
-}
+        <label for="chapter-select">选择章节：</label>
+        <select id="chapter-select">
+            <option value="">加载中...</option>
+        </select>
 
-select, button {
-  font-size: 1.2rem;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
-  border: 2px solid #007bff;
-  border-radius: 0.5rem;
-}
+        <button id="start-btn">开始答题</button>
+        <button id="review-btn">查看错题</button>
+    </div>
 
-button {
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
+    <h2>章节进度</h2>
+    <ul id="progress-list"></ul>
 
-button:hover {
-  background-color: #0056b3;
-}
-
-.option-btn {
-  display: block;
-  width: 90%;
-  margin: 1rem auto;
-  padding: 1rem;
-  font-size: 1.2rem;
-  background-color: white;
-  border: 2px solid #007bff;
-  border-radius: 0.75rem;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-.option-btn:hover {
-  background-color: #e6f0ff;
-}
-
-.option-btn.correct {
-  background-color: #28a745;
-  color: white;
-  border-color: #28a745;
-}
-
-.option-btn.wrong {
-  background-color: #dc3545;
-  color: white;
-  border-color: #dc3545;
-}
-
-.hidden {
-  display: none;
-}
-
-#progress, #accuracy {
-  font-size: 1.1rem;
-  margin: 0.5rem 0;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
-
-  select, button {
-    width: 90%;
-    font-size: 1.1rem;
-  }
-
-  .option-btn {
-    font-size: 1.1rem;
-  }
-}
-
-/* 章节进度列表 */
-#progress-list li {
-  list-style: none;
-  margin: 0.3rem 0;
-  font-size: 1.1rem;
-}
-
-/* 错题显示 */
-#explanation {
-  margin-top: 1rem;
-  padding: 1rem;
-  font-size: 1rem;
-  color: #555;
-  background-color: #f0f0f0;
-  border-left: 4px solid #007bff;
-  border-radius: 0.5rem;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    <script src="app.js"></script>
+</body>
+</html>
