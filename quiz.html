@@ -3,25 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HVAC 章节答题</title>
+    <title>HVAC 题库</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>HVAC 章节答题</h1>
+    <h1>HVAC 题库</h1>
 
-    <button id="language-switch">Switch to English</button>
+    <label for="quiz-select">选择题库：</label>
+    <select id="quiz-select">
+        <option value="law">Law 法律</option>
+        <option value="skill">Skill 技能</option>
+    </select>
 
-    <p>进度: <span id="progress">0 / 0</span></p>
-    <p>正确率: <span id="accuracy">0%</span></p>
+    <label for="chapter-select">选择章节：</label>
+    <select id="chapter-select">
+        <option value="">...</option>
+    </select>
 
-    <div id="quiz-container">
-        <p id="question-text">加载中...</p>
-        <div id="options"></div>
-        <p id="explanation" class="hidden"></p>
-        <button id="next-btn" class="hidden">下一题</button>
-        <button id="back-btn">返回章节选择</button>
-    </div>
+    <button id="start-btn">开始答题</button>
+    <button id="review-btn">查看错题</button>
 
-    <script src="quiz.js"></script>
+    <h2>章节进度</h2>
+    <ul id="progress-list"></ul>
+
+    <script src="app.js"></script>
 </body>
 </html>
